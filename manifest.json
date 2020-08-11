@@ -2,7 +2,7 @@
 "tutorials": [
         {            
             "title": "OIC Integration – for application integration",
-            "filename": "./lab01.md"
+            "filename": "lab01.md"
         }		
     ]
 }
