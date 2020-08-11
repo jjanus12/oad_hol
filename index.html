@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Journey to Always Free</title>
+    <title>OIC Integration – for application integration</title>
 
     <script src="https://oracle.github.io/learning-library/common/redwood-hol/js/jquery-1.11.0.min.js"></script>
     <script src="https://oracle.github.io/learning-library/common/redwood-hol/js/jquery-ui-1.10.4.custom.js"></script>
@@ -13,8 +10,8 @@
     <!--<script src="https://oracle.github.io/learning-library/common/redwood-hol/js/main.js"></script>-->
 	<script src="js/main1.js"></script>
 
-    <link rel="stylesheet" href="https://oracle.github.io/learning-library/common/redwood-hol/css/style.css" />
-    <link rel="shortcut icon" href="https://oracle.github.io/learning-library/common/redwood-hol/img/favicon.ico" />
+    <link rel="stylesheet" href="https://oracle.github.io/learning-library/common/redwood-hol/css/style.css">
+    <link rel="shortcut icon" href="https://oracle.github.io/learning-library/common/redwood-hol/img/favicon.ico">
 	<style type="text/css">
 		img {max-width: 100%;}
 	</style>
@@ -23,38 +20,468 @@
 <body>
     <header class="hol-Header" role="banner">
         <div class="hol-Header-wrap">
-            <div class="hol-Header-logo"><span>Journey to Always Free</span></div>
+            <div class="hol-Header-logo"><span>Journey of App Modernization</span></div>
             <div class="hol-Header-actions">
-                <button id="openNav" class="hol-Header-button hol-Header-button--menu rightNav" aria-label="Open Menu"
-                    title="Open Menu">
+                <button id="openNav" class="hol-Header-button hol-Header-button--menu rightNav" aria-label="Open Menu" title="Open Menu" style="display: none;">
                     <span class="hol-Header-toggleIcon"></span>
                 </button>
             </div>
         </div>
     </header>
 
-    <div id="mySidenav" class="rightNav">
+    <div id="mySidenav" class="rightNav" style="display: none;">
         <nav class="hol-Nav">
-            <button id="closeNav" class="hol-Nav-close" aria-label="Close Menu" title="Close Menu"><span
-                    class="hol-Nav-closeIcon"></span></button>
+            <button id="closeNav" class="hol-Nav-close" aria-label="Close Menu" title="Close Menu"><span class="hol-Nav-closeIcon"></span></button>
             <div class="hol-Nav-title">Workshop Content</div>
             <ul class="hol-Nav-list">
             </ul>
         </nav>
     </div>
 
-    <div id="container">
+    <h1>OIC Integration – for application integration</h1><div id="container">
         <div id="leftNav">
-            <div id="toc"></div>
+            <div id="toc" class="tocify scroll" style="height: 100%;"><ul id="tocify-header0" class="tocify-header nav nav-list"><li class="tocify-item active" data-unique="Objective" style="cursor: pointer;"><a href="#">Objective</a></li></ul><ul id="tocify-header1" class="tocify-header nav nav-list"><li class="tocify-item" data-unique="STEP1:OracleIntegrationCloudOverview" style="cursor: pointer;"><a href="#">STEP 1: Oracle Integration Cloud Overview</a></li></ul><ul id="tocify-header2" class="tocify-header nav nav-list"><li class="tocify-item" data-unique="STEP2.1:CreatetheConnections-REST" style="cursor: pointer;"><a href="#">STEP 2.1: Create the Connections - REST</a></li></ul><ul id="tocify-header3" class="tocify-header nav nav-list"><li class="tocify-item" data-unique="STEP2.2:CreatetheConnections-ServiceCloud" style="cursor: pointer;"><a href="#">STEP 2.2: Create the Connections - Service Cloud</a></li></ul><ul id="tocify-header4" class="tocify-header nav nav-list"><li class="tocify-item" data-unique="STEP3.1:CreatetheIntegration-CreateAppDrivenOrchestration" style="cursor: pointer;"><a href="#">STEP 3.1: Create the Integration - Create App Driven Orchestration</a></li></ul><ul id="tocify-header5" class="tocify-header nav nav-list"><li class="tocify-item" data-unique="STEP3.2:CreatetheIntegration-ConfigureRESTTrigger" style="cursor: pointer;"><a href="#">STEP 3.2: Create the Integration - Configure REST Trigger</a></li></ul><ul id="tocify-header6" class="tocify-header nav nav-list"><li class="tocify-item" data-unique="STEP3.3:CreatetheIntegration-CheckifOrganizationexists" style="cursor: pointer;"><a href="#">STEP 3.3: Create the Integration - Check if Organization exists</a></li></ul><ul id="tocify-header7" class="tocify-header nav nav-list"><li class="tocify-item" data-unique="STEP3.4:CreatetheIntegration-CaseOrganizationexists"><a href="#">STEP 3.4: Create the Integration - Case Organization exists</a></li></ul><ul id="tocify-header8" class="tocify-header nav nav-list"><li class="tocify-item" data-unique="STEP3.5:CreatetheIntegration-CaseNewOrganization"><a href="#">STEP 3.5: Create the Integration - Case New Organization</a></li></ul><ul id="tocify-header9" class="tocify-header nav nav-list"><li class="tocify-item" data-unique="STEP3.6:CreatetheIntegration-Setuptracking"><a href="#">STEP 3.6: Create the Integration - Setup tracking</a></li></ul><ul id="tocify-header10" class="tocify-header nav nav-list"><li class="tocify-item" data-unique="STEP4:ActivatetheIntegration"><a href="#">STEP 4: Activate the Integration</a></li></ul><ul id="tocify-header11" class="tocify-header nav nav-list"><li class="tocify-item" data-unique="STEP5:TestusingPostman"><a href="#">STEP 5: Test using Postman</a></li></ul></div>
         </div>
-        <div id="contentBox">
-            <main class="hol-Content" id="module-content"></main>
+        <div id="contentBox" style="height: 110%;">
+            <main class="hol-Content" id="module-content"><article>
+<h3 id="jamworkshopjourneyofappmodernization">JAM Workshop (Journey of App Modernization)</h3>
+<p>This hands-on, instructor-led workshop supplements live presentations and demos in order to cover both technical architecture and innovation use cases, strategies when taking application networks to the cloud and introduce you the tools required for successful implementation.
+No expertise or previous experience is required.</p>
+<p>This set of labs covers the following Oracle Integration Services –</p>
+<ul>
+<li>Apiary – for API Design</li>
+<li>API Platform CS – for API Management</li>
+<li>OIC Integration – for application integration</li>
+<li>OIC Integration – for process automation and low-code apps extension</li>
+</ul>
+<section><div name="Objective" data-unique="Objective"></div><h2 id="objective">Objective</h2><p>The use case is very simple – we need to be able to expose an API that allows us to create new organizations in Oracle Service Cloud (fka. Right Now).</p><p>Contents</p><ul>
+<li>Oracle Integration Cloud Overview</li>
+<li>Create the Connections - REST and Service Cloud</li>
+<li>Create the Integration</li>
+<li>Activate the Integration</li>
+<li>Test using Postman</li>
+</ul></section>
+
+
+
+<section><div name="STEP1:OracleIntegrationCloudOverview" data-unique="STEP1:OracleIntegrationCloudOverview"></div><button id="btn_toggle" class="hol-ToggleRegions plus">Expand All Steps</button><h2 id="step1oracleintegrationcloudoverview" class="minus" tabindex="0"><strong>STEP 1:</strong> Oracle Integration Cloud Overview</h2><ul style="display: block;">
+<li>Login to Oracle Integration Cloud (OIC)</li>
+</ul><p style="display: block;"><img src="./images/lab01/img0010.png" alt=""></p><p style="display: block;">Think of OIC as a toolbox, containing the following –</p><ul style="display: block;">
+<li><p>Integrations – to connect applications</p></li>
+<li><p>Processes – to extend applications or create new custom business processes</p></li>
+<li><p>Visual Builder – to create new applications in a low-code environment</p></li>
+<li><p>Click on <strong>Integrations</strong></p>
+<ul>
+<li>This brings us into the Integration IDE.</li></ul>
+<p><img src="./images/lab01/img0020.png" alt=""></p></li>
+</ul><p style="display: block;">The Integration Designer allows us to do the following –</p><ul style="display: block;">
+<li>Create Connections to applications</li>
+<li>Create Integrations, leveraging those Connections</li>
+<li>Add Lookups to do domain value mapping<ul>
+<li>Eg. the state of California is known as CA in one app, while in the other, it is the full name</li></ul></li>
+<li>Package those Integrations into functional units</li>
+<li>Agents – create connectivity agents for secure communication with on-premise apps</li>
+<li>Adapters – Connections leverage adapters – see what you get out of the box with OIC.</li>
+<li>Enhance your integrations with JavaScript libraries</li>
+</ul><div></div></section>
+
+
+
+
+
+
+<section><div name="STEP2.1:CreatetheConnections-REST" data-unique="STEP2.1:CreatetheConnections-REST"></div><h2 id="step21createtheconnectionsrest" class="plus" tabindex="0"><strong>STEP 2.1:</strong> Create the Connections - REST</h2><p style="display: none;">We will create a REST Connection which will trigger our integration, and a Service Cloud connection to communicate with, you've guessed it, Oracle Service Cloud.</p><ul style="display: none;">
+<li>Click on <strong>Connections</strong></li>
+</ul><p style="display: none;"><img src="./images/lab01/img0030.png" alt=""></p><ul style="display: none;">
+<li>Click <strong>Create</strong></li>
+</ul><p style="display: none;"><img src="./images/lab01/img0040.png" alt=""></p><ul style="display: none;">
+<li>Search for the <strong>REST</strong> adapter</li>
+</ul><p style="display: none;"><img src="./images/lab01/img0050.png" alt=""></p><p style="display: none;"><img src="./images/lab01/img0060.png" alt=""></p><ul style="display: none;">
+<li><p>Configure as follows</p>
+<ul>
+<li><strong>Name</strong>: REST-Trigger-<strong>NN</strong> (Replace <strong>NN</strong> with the number given by your trainers. Do so for all examples in this lab.)
+<img src="./images/lab01/img0070.png" alt=""></li></ul></li>
+<li><p>Click <strong>Test, Save, Close</strong> , in that order.</p></li>
+</ul><p style="display: none;"><img src="./images/lab01/img0080.png" alt=""></p><p style="display: none;"><img src="./images/lab01/img0090.png" alt=""></p></section>
+
+
+
+
+
+
+
+
+
+
+
+<section><div name="STEP2.2:CreatetheConnections-ServiceCloud" data-unique="STEP2.2:CreatetheConnections-ServiceCloud"></div><h2 id="step22createtheconnectionsservicecloud" class="minus" tabindex="0"><strong>STEP 2.2:</strong> Create the Connections - Service Cloud</h2><ul style="display: block;">
+<li>Now <strong>Create</strong> the Service Cloud Connection, you can search to filter away the other adapters.</li>
+</ul><p style="display: block;"><img src="./images/lab01/img0100.png" alt=""></p><p style="display: block;"><img src="./images/lab01/img0110.png" alt=""></p><ul style="display: block;">
+<li><p><strong>Configure</strong> as follows</p>
+<ul>
+<li><strong>Name</strong>: ServiceCloud-<strong>NN</strong>
+<img src="./images/lab01/img0120.png" alt=""></li></ul></li>
+<li><p><strong>Configure</strong> with the following WSDL URL :</p>
+<pre><code>https://rnowgse11070.rightnowdemo.com/services/soap/connect/soap?wsdl
+</code></pre>
+<ul>
+<li><p>Click <strong>Configure Connectivity</strong>
+<img src="./images/lab01/img0130.png" alt=""></p></li>
+<li><p>Enter the <strong>WSDL URL</strong> and confirm by clicking <strong>OK</strong>
+<img src="./images/lab01/img0140.png" alt=""></p></li>
+<li><p>Click <strong>Configure Security</strong></p>
+<ul>
+<li><strong>Username</strong> : Admin2</li>
+<li><strong>Password</strong>: Your trainers will provide this to you
+<img src="./images/lab01/img0150.png" alt=""></li></ul></li></ul></li>
+<li><p>Click <strong>Test, Save, Close</strong> , in that order.</p></li>
+</ul><p style="display: block;">You should now be able to see your new connection at the top of the list.</p><p style="display: block;"><img src="./images/lab01/img0160.png" alt=""></p></section>
+
+
+
+
+
+
+<section><div name="STEP3.1:CreatetheIntegration-CreateAppDrivenOrchestration" data-unique="STEP3.1:CreatetheIntegration-CreateAppDrivenOrchestration"></div><h2 id="step31createtheintegrationcreateappdrivenorchestration" class="plus" tabindex="0"><strong>STEP 3.1:</strong> Create the Integration - Create App Driven Orchestration</h2><ul style="display: none;">
+<li>Open the main menu and click on <strong>Integrations</strong></li>
+</ul><p style="display: none;"><img src="./images/lab01/img0170.png" alt=""></p><ul style="display: none;">
+<li>Click <strong>Create</strong></li>
+</ul><p style="display: none;"><img src="./images/lab01/img0180.png" alt=""></p><ul style="display: none;">
+<li>Select <strong>App Driven Orchestration</strong></li>
+</ul><p style="display: none;"><img src="./images/lab01/img0190.png" alt=""></p><ul style="display: none;">
+<li><p><strong>Configure</strong> as follows</p>
+<ul>
+<li><strong>Name</strong>: CreateServiceOrg-<strong>NN</strong></li>
+<li><strong>Description</strong>: Your name or initials</li>
+<li><strong>Package</strong>: pck-createServiceOrg-<strong>NN</strong></li></ul></li>
+<li><p>Click <strong>Create</strong></p></li>
+</ul><p style="display: none;"><img src="./images/lab01/img0200.png" alt=""></p></section>
+
+
+
+
+
+
+
+
+<section><div name="STEP3.2:CreatetheIntegration-ConfigureRESTTrigger" data-unique="STEP3.2:CreatetheIntegration-ConfigureRESTTrigger"></div><h2 id="step32createtheintegrationconfigureresttrigger" class="plus" tabindex="0"><strong>STEP 3.2:</strong> Create the Integration - Configure REST Trigger</h2><ul style="display: none;">
+<li>Click on the start node, <strong>search for</strong> and <strong>select your REST Connection</strong>: REST-Trigger-NN</li>
+</ul><p style="display: none;"><img src="./images/lab01/img0210.png" alt=""></p><ul style="display: none;">
+<li><strong>Configure</strong> the REST-Trigger as follows<ul>
+<li>Name: CreateOrgService</li>
+<li>Description: Your name or initials</li>
+<li>Multiple resources or verbs: not checked (leave default)</li></ul></li>
+</ul><p style="display: none;"><img src="./images/lab01/img0215.png" alt=""></p><ul style="display: none;">
+<li><p>Click <strong>Next</strong></p>
+<ul>
+<li>Endpoint's relative resource URI: /createOrg</li>
+<li>Action to perform on endpoint: POST</li>
+<li>Make sure "_Configure a request payload for this endpoint_" and "_Configure this endpoint to receive the response_" are <strong>selected</strong></li></ul></li>
+<li><p>Click <strong>Next</strong></p></li>
+</ul><p style="display: none;"><img src="./images/lab01/img0220.png" alt=""></p><ul style="display: none;">
+<li><p>In the Request-step:</p>
+<ul>
+<li><p><strong>Select JSON</strong> as payload sample
+<img src="./images/lab01/img0230.png" alt=""></p></li>
+<li><p><strong>Click</strong> &lt;&lt;inline&gt;&gt;  to enter the example
+<img src="./images/lab01/img0240.png" alt=""></p></li>
+<li><p><strong>Copy</strong> the following JSON sample into the editor</p>
+<pre><code class="javascript language-javascript">{
+    "orgName": "Oracle Organization",
+    "contactFirstName": "Chris",
+    "contactLastName": "OConnnor",
+    "contactEmail": "cc@hotd.ie",
+    "country": "IE"
+}
+</code></pre></li>
+<li><p>Click <strong>OK</strong>
+<img src="./images/lab01/img0250.png" alt=""></p></li>
+<li><p>Click <strong>Next</strong>
+<img src="./images/lab01/img0260.png" alt=""></p></li></ul></li>
+<li><p>In the Response-step:</p>
+<ul>
+<li><p><strong>Select JSON</strong> as payload sample</p></li>
+<li><p><strong>Click</strong> &lt;&lt;inline&gt;&gt; to enter the below example JSON
+<img src="./images/lab01/img0270.png" alt=""></p></li>
+<li><p><strong>Copy</strong> the following JSON sample into the editor</p>
+<pre><code class="javascript language-javascript">{
+    "orgid": "123",
+    "status": "New Org Created"
+}
+</code></pre></li>
+<li><p>Click <strong>OK</strong>
+<img src="./images/lab01/img0280.png" alt=""></p></li></ul></li>
+<li><p>Click <strong>Next</strong></p></li>
+<li><p>Click <strong>Done</strong></p></li>
+<li><p><strong>Save</strong> the Integration</p></li>
+</ul><p style="display: none;">Your Integration should now look something like this:</p><p style="display: none;"><img src="./images/lab01/img0290.png" alt=""></p></section>
+
+
+
+
+
+
+
+
+
+<section><div name="STEP3.3:CreatetheIntegration-CheckifOrganizationexists" data-unique="STEP3.3:CreatetheIntegration-CheckifOrganizationexists"></div><h2 id="step33createtheintegrationcheckiforganizationexists" class="plus" tabindex="0"><strong>STEP 3.3:</strong> Create the Integration - Check if Organization exists</h2><p style="display: none;">Before creating a new organization, the first thing we will do is to check whether the organization already exists.
+For this we will use the Service Cloud Connection.</p><ul style="display: none;">
+<li><strong>Drag and Drop</strong> _your_ Service Cloud Connection (ServiceCloud-NN) after the Trigger <em>CreateOrgService</em>. Once you start to move the connector onto the canvas, you will see a plus-sign (+) just under the <em>CreateOrgService</em>. Drop the connector on this sign.</li>
+</ul><p style="display: none;"><img src="./images/lab01/img0300.png" alt=""></p><ul style="display: none;">
+<li><p><strong>Configure</strong> as follows</p>
+<ul>
+<li>Name of endpoint: CheckIfOrgExists</li></ul></li>
+<li><p>Click <strong>Next</strong></p></li>
+</ul><p style="display: none;"><img src="./images/lab01/img0310.png" alt=""></p><ul style="display: none;">
+<li><p><strong>Configure</strong> as follows</p>
+<ul>
+<li><p>Select Operation mode: <strong>Single</strong> operation</p></li>
+<li><p>Operation type: <strong>ROQL</strong> (ROQL is an SQL like query language for Service Cloud)</p>
+<ul>
+<li>Select <strong>Query objects</strong> as Cloud Operation</li></ul></li>
+<li><p>Enter the following query</p>
+<pre><code>SELECT organization from organization where organization.name = '&amp;orgName'
+</code></pre></li>
+<li><p><strong>Click</strong> on Parameter Bindings</p></li>
+<li><p>Enter <strong>orgName</strong>: Initech</p></li>
+<li><p><strong>Click</strong> _Test My Query_</p></li></ul>
+<p><img src="./images/lab01/img0320.png" alt=""></p></li>
+</ul><p style="display: none;">You should have 1 result found, with a response that looks like this:</p><p style="display: none;"><img src="./images/lab01/img0330.png" alt=""></p><ul style="display: none;">
+<li>Click <strong>Next</strong> and <strong>Done</strong> to close the Service Cloud connector</li>
+<li><strong>Save</strong> the Integration</li>
+</ul><p style="display: none;">Your integration now looks like this:</p><p style="display: none;"><img src="./images/lab01/img0340.png" alt=""></p><p style="display: none;">Now we need to map the incoming <em>orgName</em> to the <em>CheckIfOrgExists</em> parameter.</p><ul style="display: none;">
+<li><strong>Hover</strong> over, or click on the "<em>Map to CheckIfOrgExists</em>", and <strong>click</strong> on the little pencil-icon to edit</li>
+</ul><p style="display: none;"><img src="./images/lab01/img0350.png" alt=""></p><ul style="display: none;">
+<li><p><strong>Map</strong> as follows</p>
+<ul>
+<li><strong>Mark</strong> orgName in the left column by clicking on it</li>
+<li><strong>Mark</strong> orgName in the right column by clicking on it</li>
+<li><strong>Click</strong> on "Map" to create the mapping</li>
+<li><strong>OR</strong> drag &amp; drop the source to target</li></ul>
+<p><img src="./images/lab01/img0360.png" alt=""></p></li>
+<li><p>Click <strong>Validate</strong> and <strong>Close</strong></p></li>
+<li><p><strong>Save</strong> the Integration</p></li>
+</ul><p style="display: none;">Your integration now looks like this:</p><p style="display: none;"><img src="./images/lab01/img0370.png" alt=""></p><p style="display: none;">Now we will add a <em>Switch</em> action, which is essentially an if/else check.</p><p style="display: none;">If the Organization already exists, then we will return the <em>orgId</em> and a message – _"Organization already exists"._</p><p style="display: none;">If the Organization does not already exist, then we will create it and return the <em>orgId</em> and a message – _"Organization created"._</p><ul style="display: none;">
+<li><strong>Drag &amp; Drop</strong> the <strong>Switch</strong> from the Actions Tab on the right and drop it right after <em>CheckIfOrgExists</em></li>
+</ul><p style="display: none;"><img src="./images/lab01/img0380.png" alt=""></p><p style="display: none;"><img src="./images/lab01/img0390.png" alt=""></p></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section><div name="STEP3.4:CreatetheIntegration-CaseOrganizationexists" data-unique="STEP3.4:CreatetheIntegration-CaseOrganizationexists"></div><h2 id="step34createtheintegrationcaseorganizationexists" class="plus" tabindex="0"><strong>STEP 3.4:</strong> Create the Integration - Case Organization exists</h2><ul style="display: none;">
+<li><strong>Edit</strong> path 1 by clicking on the pencil-icon:</li>
+</ul><p style="display: none;"><img src="./images/lab01/img0400.png" alt=""></p><ul style="display: none;">
+<li><p><strong>Configure</strong> as follows</p>
+<ul>
+<li><strong>Expression name</strong>: Org Already Exists</li>
+<li>In the Expression-editor, <strong>enter</strong> : count()</li>
+<li>Verify the condition is set to "&gt;"  and  "0" – greater than zero</li></ul>
+<p><img src="./images/lab01/img0410.png" alt=""></p></li>
+</ul><p style="display: none;">The Expression is now "count() &gt; 0"; but the count of what? Naturally, the count of the objects returned by <em>CheckIfOrgExists</em>. So we need to add this variable to the count().</p><ul style="display: none;">
+<li><strong>Drag &amp; Drop</strong> Organization into the count()-expression ( <strong>OR</strong> mark and click  on the"&gt;"-icon)</li>
+</ul><p style="display: none;"><img src="./images/lab01/img0420.png" alt=""></p><ul style="display: none;">
+<li>Click <strong>Validate</strong> and then <strong>Close</strong></li>
+<li><strong>Save</strong> the Integration</li>
+</ul><p style="display: none;">If you hover over Route 1, you should see something like this:</p><p style="display: none;"><img src="./images/lab01/img0430.png" alt=""></p><p style="display: none;">Now, in Path 1, we simply add a MAP to assign the return variable.</p><ul style="display: none;">
+<li><p>From the Actions-tab, <strong>Drag &amp; Drop</strong> a <strong>Map</strong> on the path just after "Org Already Exists"</p></li>
+<li><p><strong>Map</strong> as follows</p>
+<ul>
+<li>id to orgId</li></ul>
+<p><img src="./images/lab01/img0440.png" alt=""></p></li>
+</ul><p style="display: none;">To manually set the status to a text – do as follows</p><ul style="display: none;">
+<li><strong>Right-Click</strong> on the status element and select <strong>Create Target Node</strong>:</li>
+</ul><p style="display: none;"><img src="./images/lab01/img0450.png" alt=""></p><ul style="display: none;">
+<li>In the Expression aria at the bottom <strong>enter</strong> statement: Organization already exists</li>
+<li><strong>Click</strong> Save</li>
+</ul><p style="display: none;"><img src="./images/lab01/img0460.png" alt=""></p><ul style="display: none;">
+<li><strong>Verify</strong> the mapping</li>
+</ul><p style="display: none;"><img src="./images/lab01/img0470.png" alt=""></p><ul style="display: none;">
+<li>Click <strong>Validate</strong> and then <strong>Close</strong></li>
+<li><strong>Save</strong> the Integration</li>
+</ul><p style="display: none;">Your integration should now look like this:</p><p style="display: none;"><img src="./images/lab01/img0480.png" alt=""></p></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section><div name="STEP3.5:CreatetheIntegration-CaseNewOrganization" data-unique="STEP3.5:CreatetheIntegration-CaseNewOrganization"></div><h2 id="step35createtheintegrationcaseneworganization" class="plus" tabindex="0"><strong>STEP 3.5:</strong> Create the Integration - Case New Organization</h2><p style="display: none;">Now to configure Path 2 – Otherwise</p><p style="display: none;">Here we will leverage the Service Cloud Connection to create an Organization in Service Cloud.</p><ul style="display: none;">
+<li><strong>Drag &amp; Drop</strong> _your_ Service Cloud Connection (ServiceCloud-NN) onto Path 2.</li>
+<li>Call the endpoint: CreateOrg; <strong>Click</strong> Next</li>
+<li><strong>Configure</strong> as follows<ul>
+<li><strong>Operation type</strong>: CRUD &amp; Create</li>
+<li>Search for Org, and <strong>select</strong> Business Object Organization by marking it and clicking on the "&gt;"-icon</li>
+<li><strong>Click</strong> Next</li>
+<li><strong>Click</strong> Done</li></ul></li>
+<li><strong>Save</strong> the Integration</li>
+</ul><p style="display: none;"><img src="./images/lab01/img0490.png" alt=""></p><p style="display: none;">Your integration should now look like this:</p><p style="display: none;"><img src="./images/lab01/img0500.png" alt=""></p><ul style="display: none;">
+<li>Do the <strong>Mapping</strong> between <em>Otherwise</em> and <em>CreateOrg</em></li>
+</ul><p style="display: none;"><img src="./images/lab01/img0510.png" alt=""></p><ul style="display: none;">
+<li><strong>Configure</strong> as follows<ul>
+<li>orgName to Name</li></ul></li>
+<li>Click <strong>Validate</strong> and <strong>Close</strong></li>
+<li><strong>Save</strong> the Integration</li>
+</ul><p style="display: none;"><img src="./images/lab01/img0520.png" alt=""></p><p style="display: none;">Your integration is almost done! Now, in Path 2, we just need to add a final MAP to assign the return variable.</p><p style="display: none;"><img src="./images/lab01/img0530.png" alt=""></p><ul style="display: none;">
+<li><strong>Drag &amp; Drop</strong> a <strong>Map</strong> Action into Path 2 after CreateOrg</li>
+<li><strong>Configure</strong> as follows<ul>
+<li>id to orgid</li></ul></li>
+</ul><p style="display: none;"><img src="./images/lab01/img0540.png" alt=""></p><p style="display: none;">To manually set the status to a text – do as follows</p><ul style="display: none;">
+<li><strong>Right-Click</strong> on the status element and select <strong>Create Target Node</strong>:</li>
+</ul><p style="display: none;"><img src="./images/lab01/img0550.png" alt=""></p><ul style="display: none;">
+<li>In the Expression aria at the bottom <strong>enter</strong> statement: Organization Created</li>
+<li><strong>Click</strong> Save</li>
+</ul><p style="display: none;"><img src="./images/lab01/img0560.png" alt=""></p><ul style="display: none;">
+<li><strong>Verify</strong> the mapping</li>
+</ul><p style="display: none;"><img src="./images/lab01/img0570.png" alt=""></p><ul style="display: none;">
+<li>Click <strong>Validate</strong> and then <strong>Close</strong></li>
+<li><strong>Save</strong> the Integration</li>
+</ul><p style="display: none;">Your integration should now look something like this:</p><p style="display: none;"><img src="./images/lab01/img0580.png" alt=""></p><p style="display: none;">All we need to do is delete the empty Map, just before the return</p><ul style="display: none;">
+<li><strong>Click</strong> on the "more"-icon on the Map-action</li>
+<li><strong>Click</strong> Delete</li>
+<li><strong>Save</strong> the Integration</li>
+</ul><p style="display: none;"><img src="./images/lab01/img0590.png" alt=""></p><p style="display: none;">The completed integration!</p><p style="display: none;"><img src="./images/lab01/img0600.png" alt=""></p></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section><div name="STEP3.6:CreatetheIntegration-Setuptracking" data-unique="STEP3.6:CreatetheIntegration-Setuptracking"></div><h2 id="step36createtheintegrationsetuptracking" class="plus" tabindex="0"><strong>STEP 3.6:</strong> Create the Integration - Setup tracking</h2><p style="display: none;">Before we activate and publish, we still need to set a tracking field, for auditing/monitoring purposes</p><ul style="display: none;">
+<li>From the "more"-menu in the upper-right corner, <strong>click</strong> Tracking</li>
+</ul><p style="display: none;"><img src="./images/lab01/img0610.png" alt=""></p><ul style="display: none;">
+<li><p><strong>Configure</strong> as follows</p>
+<ul>
+<li><strong>Drag &amp; Drop</strong> the orgName onto the Tracking Field</li></ul>
+<p><img src="./images/lab01/img0620.png" alt=""></p></li>
+<li><p><strong>Save</strong> and <strong>Close</strong> the Integration</p></li>
+</ul></section>
+
+
+
+
+<section><div name="STEP4:ActivatetheIntegration" data-unique="STEP4:ActivatetheIntegration"></div><h2 id="step4activatetheintegration" class="plus" tabindex="0"><strong>STEP 4:</strong> Activate the Integration</h2><p style="display: none;">It's finally time to activate and publish your integration!</p><p style="display: none;">From the Integrations-list</p><ul style="display: none;">
+<li><strong>Identify</strong> _your_ Integration – CreateServiceOrg-NN (you can search to filter the results)</li>
+<li>Activate the Integration – <strong>Activate</strong> - by clicking on the turn on button</li>
+</ul><p style="display: none;"><img src="./images/lab01/img0630.png" alt=""></p><ul style="display: none;">
+<li>Click <strong>Activate</strong></li>
+</ul><p style="display: none;"><img src="./images/lab01/img0641.png" alt=""></p></section>
+
+
+
+
+
+
+<section><div name="STEP5:TestusingPostman" data-unique="STEP5:TestusingPostman"></div><h2 id="step5testusingpostman" class="plus" tabindex="0"><strong>STEP 5:</strong> Test using Postman</h2><p style="display: none;">You will need to have Postman (or a similar program) installed for this step</p><ul style="display: none;">
+<li>Click on the <strong>URL</strong> from the activation notification to get the _REST Endpoint_</li>
+</ul><p style="display: none;"><img src="./images/lab01/img0660.png" alt=""></p><p style="display: none;">You can also find that link here</p><p style="display: none;"><img src="./images/lab01/img0670.png" alt=""></p><p style="display: none;">This directs to a very handy page, the Endpoint Description.</p><ul style="display: none;">
+<li>Copy the <strong>Endpoint URL</strong></li>
+<li>Copy the <strong>Request sample</strong></li>
+</ul><p style="display: none;"><img src="./images/lab01/img0680.png" alt=""></p><ul style="display: none;">
+<li><p>In Postman, open a <strong>New Request</strong>-tab</p>
+<ul>
+<li>Enter the <strong>Endpoint URL</strong> you copied</li>
+<li>Make sure you are using a <strong>POST</strong> -call</li>
+<li>Under the tab <strong>Authorization</strong><ul>
+<li><strong>Type</strong>: Basic Auth</li>
+<li>Enter your <strong>OIC credentials</strong></li></ul></li></ul>
+<p><img src="./images/lab01/img0690.png" alt=""></p></li>
+<li><p>Click on the <strong>Body</strong> -tab</p>
+<ul>
+<li>Choose <strong>"raw"s</strong></li>
+<li>Select <strong>"JSON(application/json)"</strong></li></ul></li>
+<li><p>Enter the <strong>request payload</strong> you copied from the <strong>Request sample</strong> (similar to this)</p>
+<pre><code class="javascript language-javascript">{
+    "orgName": "Oracle Organization", 
+    "contactFirstName": "Chris",
+    "contactLastName": "O'Connor",
+    "contactEmail": "cc@hotd.ie",
+    "country":"IE"
+}
+</code></pre>
+<ul>
+<li><strong>Modify</strong> the orgName to: Oracle Organization <strong>NN II</strong> where <strong>II</strong> represent the initials of your name</li></ul></li>
+<li><p>Click <strong>Send</strong>
+<img src="./images/lab01/img0700.png" alt=""></p></li>
+<li><p>You should have a Request-Response which looks like this:
+<img src="./images/lab01/img0710.png" alt=""></p></li>
+<li><p>You can compare the Response to the example-Response from the Endpoint Description page.</p></li>
+<li><p>Verify "Organization Created"</p></li>
+<li><p>Click <strong>Send</strong> again
+<img src="./images/lab01/img0720.png" alt=""></p></li>
+<li><p>Note the different Response</p></li>
+</ul></section>
+
+
+
+
+
+
+
+
+</article></main>
         </div>
     </div>
 
     <footer class="hol-Footer">
         <a class="hol-Footer-topLink" href="#top">Return to Top</a>
     </footer>
-</body>
 
-</html>
+
+</body>
