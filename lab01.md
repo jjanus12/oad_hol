@@ -25,7 +25,7 @@ Contents
 
 ## **STEP 1:** Architecture
 
-## **STEP 2.1:** ID & Access Management Overview
+## **STEP 2.1:** Identity & Access Management Overview
 
 ## **STEP 3.1:** Storage Overview
 
