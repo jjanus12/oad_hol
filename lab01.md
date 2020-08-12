@@ -16,7 +16,7 @@ The objective of this Hands-on lab is to deploy a simple web application on Alwa
 
 Contents
 - Architecture
--	ID & Access Management
+-	Identity & Access Management
 -	Storage
 - Autonomous Database
 - Networking
