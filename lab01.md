@@ -7,6 +7,7 @@ No expertise or previous experience is required.
 
 ## Introduction
 
+## Prerequisites
 
 ## Objective
 
