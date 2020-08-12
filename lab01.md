@@ -4,13 +4,13 @@
 
 # Always Free Resources - Application Development
 
-## Introduction
+### Introduction
 
 This hands-on, instructor-led workshop supplements live presentations and demos in order to cover both technical architecture and educational use cases, strategies when using Oracle Cloud Infrastructure's Always Free Resources.
 
 No expertise or previous experience is required.
 
-## Objective
+### Objective
 
 The objective of this Hands-on lab is to deploy a simple web application on Always Free resources inside the Oracle Cloud Infrastructure (OCI). The deployment will be manual, so you can understand better each step and relations between different OCI resources to create the web application.
 
