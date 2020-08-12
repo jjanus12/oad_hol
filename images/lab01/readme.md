@@ -1,1 +1,1 @@
-Directory for images included in lab.
+Directory for images included in the lab.
