@@ -13,7 +13,7 @@ No expertise or previous experience is required.
 Contents
 - Application Infrastructure Architecture
 -	ID & Access Management
--	Object Storage
+-	Storage
 - Autonomous Database
 - Networking
 - Compute
@@ -27,13 +27,12 @@ Contents
 
 ## **STEP 4.1:** Autonomous Database Overview
 
-## **STEP 5.1:** Autonomous Database Overview
+## **STEP 5.1:** Networking Overview
 
-## **STEP 6.1:** Networking Overview
+## **STEP 6.1:** Compute Overview
 
-## **STEP 7.1:** Compute Overview
+## **STEP 7.1:** Load Balancer Overview
 
-## **STEP 8.1:** Load Balancer Overview
 
 
 
