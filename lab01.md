@@ -1,15 +1,19 @@
+## Before You Begin
+
+- Ensure you have supported browser version installed on your machine before you start. See [Supported Browsers](https://docs.cloud.oracle.com/en-us/iaas/Content/GSG/Tasks/signingin.htm?browser#supported_browsers)
+
 # Always Free Resources - Application Development
 
-### Journey to Always Free - Workshop
+## Journey to Always Free - Workshop
 This hands-on, instructor-led workshop supplements live presentations and demos in order to cover both technical architecture and educational use cases, strategies when using Oracle Cloud Infrastructure's Always Free Resoruces.
 
 No expertise or previous experience is required.
 
-## Introduction
+### Introduction
 
-## Prerequisites
+This hands-on, instructor-led workshop supplements live presentations and demos in order to cover both technical architecture and educational use cases, strategies when using Oracle Cloud Infrastructure's Always Free Resoruces.
 
-- Ensure you have supported browser version installed on your machine before you start. See [Supported Browsers](https://docs.cloud.oracle.com/en-us/iaas/Content/GSG/Tasks/signingin.htm?browser#supported_browsers)
+No expertise or previous experience is required.
 
 ## Objective
 
