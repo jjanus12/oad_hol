@@ -33,7 +33,7 @@ Contents
 
 ## **STEP 7.1:** Compute Overview
 
-## **STEP 7.1:** Load Balancer Overview
+## **STEP 8.1:** Load Balancer Overview
 
 
 
