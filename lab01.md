@@ -9,7 +9,7 @@ No expertise or previous experience is required.
 
 ## Prerequisites
 
-- Ensure you have supported browser and version installed on your machine before you start. See [Supported Browsers](https://docs.cloud.oracle.com/en-us/iaas/Content/GSG/Tasks/signingin.htm?browser#supported_browsers)
+- Ensure you have supported browser version installed on your machine before you start. See [Supported Browsers](https://docs.cloud.oracle.com/en-us/iaas/Content/GSG/Tasks/signingin.htm?browser#supported_browsers)
 
 ## Objective
 
