@@ -106,12 +106,86 @@ Test
 
 ## **STEP 7.1:** Load Balancer Overview
 
+The Oracle Cloud Infrastructure Load Balancing service provides automated traffic distribution from one entry point to multiple servers reachable from your virtual cloud network (VCN). The service offers a load balancer with your choice of a public or private IP address, and provisioned bandwidth.
 
+A load balancer improves resource utilization, facilitates scaling, and helps ensure high availability. You can configure multiple load balancing policies and application-specific health checks to ensure that the load balancer directs traffic only to healthy instances. The load balancer can reduce your maintenance window by draining traffic from an unhealthy application server before you remove it from service for maintenance.
 
+The Load Balancing service enables you to create a public or private load balancer within your VCN. A public load balancer has a public IP address that is accessible from the internet. A private load balancer has an IP address from the hosting subnet, which is visible only within your VCN. You can configure multiple listeners  for an IP address to load balance transport Layer 4 and Layer 7 (TCP and HTTP) traffic. Both public and private load balancers can route data traffic to any backend server that is reachable from the VCN.
 
+In this first exercise, you will create your first Load Balancer. 
 
+Before creating a Load Balancer you need to have the following cloud resources:
+•	Virtual Cloud Network (VCN) 
+•	A Public Subnet
+•	An Internet Gateway
+•	A Route Table
+•	A security list 
+and for that you will use the network resources that you have already created in the previews exersices.  
 
+![](images/lab01/img71001.png)
 
+To create a Load Balancer click on the **Menu** icon on the top left side.
 
+Navigate to **Networking**  and then click on **Load Balancers**
 
+![](images/lab01/img71002.png)
 
+Make sure to select the same compartment where the rest of your cloud resources reside, and create your Load Balancer
+
+Click on **Create Load Balancer**
+
+![](images/lab01/img71003.png)
+
+First provide a **Name** for your Load Balancer and select the type: **Public**. Then choose its Maximum Total Bandwidth: **Micro** or **Small**.
+
+Below select the **Virtual Cloud Network** and the **Subnet** created in the previous exersices. 
+
+Click **Next**
+
+![](images/lab01/img71004.png)
+
+Here you need to specify the load balancing policy. Choose **Weighted Round Robin** policy.
+
+Below click on **Add Backends** button and select the compute instances that host the web application. 
+
+![](images/lab01/img71005.png)
+
+At the **Specify Health Check Policy** section choose the following: 
+•	**Protocol: HTTP**
+•	**Port: 80**
+The rest of the parameters are optional and you may use the pre-existing values.
+
+![](images/lab01/img71006.png)
+
+Click on **Show Advanced Options** and choose the **Security List** tab. 
+Here you may choose to configure the security list mannually or automatically. 
+
+In case that you have not allowed any port rules to your subnet the Automatic method will automatically apply the Egress and Ingress rules for you. In this case on port 80.
+
+![](images/lab01/img71007.png)
+
+In the last step of creating a Load Balancer, you will configure the Listener. 
+
+•	Provide a **Name** for your listener
+•	Choose Type of traffic: **HTTP**
+•	Port:**80**
+
+Click **Submit** 
+
+![](images/lab01/img71008.png)
+
+Your Load Balancer is now in creating state...
+
+![](images/lab01/img71009.png)
+
+After a few minutes your Load Balancer will become Active. 
+
+Copy its IP Address and paste it on a different web browser tab or window. You should be able to reach your Web Application. 
+
+![](images/lab01/img71010.png)
+
+**Note:** Wait a few minutes and you will notice that the Overall Heath will become green ✅ OK
+
+The **Backend Sets Health** will also become green with no critical, warning or unknown errors.
+
+![](images/lab01/img71011.png)
