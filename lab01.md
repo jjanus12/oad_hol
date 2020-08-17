@@ -58,6 +58,11 @@ Welcome to the main page of your Oracle Cloud account. Here you can see shortcut
 
 ![](images/lab01/img22001.png)
 
+Click on the “Menu“ icon on the top left side. Scroll all the way down to Governance and Administration section. Click on the menu item “Identity“ and then click on “Compartments”.
+
+![](images/lab01/img22002.png)
+
+
 ## **STEP 3.1:** Storage Overview
 
 ## **STEP 3.2:** Object Storage
