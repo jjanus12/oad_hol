@@ -66,7 +66,7 @@ This will bring up the Compartments administration page. Any Compartments create
 
 ![](images/lab01/img22003.png)
 
-Note: You can create subcompartments in compartments to create hierarchies that are six levels deep. For the purposes of this workshop we will not use subcompartments.
+**Note:** You can create subcompartments in compartments to create hierarchies that are six levels deep. For the purposes of this workshop we will not use subcompartments.
 
 ![](images/lab01/img22004.png)
 
