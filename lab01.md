@@ -27,6 +27,8 @@ Contents
 
 ## **STEP 2.1:** Identity & Access Management Overview
 
+Oracle Cloud Infrastructure Identity and Access Management (IAM) lets you control who has access to your cloud resources. You can control what type of access a group of users have and to which specific resources. This section gives you an overview of IAM components and an example scenario to help you understand how they work together.
+
 ## **STEP 3.1:** Storage Overview
 
 ## **STEP 3.2:** Object Storage
