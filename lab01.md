@@ -52,6 +52,12 @@ Oracle Cloud Infrastructure Identity and Access Management (IAM) lets you contro
 
 • FEDERATION: A relationship that an administrator configures between an identity provider and a service provider. When you federate Oracle Cloud Infrastructure with an identity provider, you manage users and groups in the identity provider. You manage authorization in Oracle Cloud Infrastructure's IAM service. Oracle Cloud Infrastructure tenancies are federated with Oracle Identity Cloud Service by default.
 
+## **STEP 2.2:** Create your Compartment
+
+Welcome to the main page of your Oracle Cloud account. Here you can see shortcuts of how to quickly provision various cloud resources, along with information regarding your account. 
+
+![](images/lab01/img22001.png)
+
 ## **STEP 3.1:** Storage Overview
 
 ## **STEP 3.2:** Object Storage
