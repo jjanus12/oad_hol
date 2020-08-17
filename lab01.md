@@ -62,6 +62,13 @@ Click on the “Menu“ icon on the top left side. Scroll all the way down to Go
 
 ![](images/lab01/img22002.png)
 
+This will bring up the Compartments administration page. Any Compartments created will be listed here along with information related to each Compartment such as: status, OCID, Authorized, the number of subcompartments and creation date. 
+
+![](images/lab01/img22003.png)
+
+Note: You can create subcompartments in compartments to create hierarchies that are six levels deep. For the purposes of this workshop we will not use subcompartments.
+
+![](images/lab01/img22004.png)
 
 ## **STEP 3.1:** Storage Overview
 
