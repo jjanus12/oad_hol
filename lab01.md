@@ -58,7 +58,7 @@ Welcome to the main page of your Oracle Cloud account. Here you can see shortcut
 
 ![](images/lab01/img22001.png)
 
-Click on the “Menu“ icon on the top left side. Scroll all the way down to Governance and Administration section. Click on the menu item “Identity“ and then click on “Compartments”.
+Click on the **Menu** icon on the top left side. Scroll all the way down to Governance and Administration section. Click on the menu item **Identity** and then click on **Compartments**.
 
 ![](images/lab01/img22002.png)
 
@@ -69,6 +69,25 @@ This will bring up the Compartments administration page. Any Compartments create
 **Note:** You can create subcompartments in compartments to create hierarchies that are six levels deep. For the purposes of this workshop we will not use subcompartments.
 
 ![](images/lab01/img22004.png)
+
+Click on **Create Compartment**
+
+![](images/lab01/img22005.png)
+
+**Name**: Give your Compartment a name, for example: oad-hol
+**Description**: Provide a short description about your compartment, for example: **Oracle Academy Day - Hands on Lab** 
+
+As mentioned earlier we will not use subcompartments so keep the Parent Compartment as: **root**
+
+We will not use Tags so leave the fields empty.
+
+Click on **Create Compartment**
+
+![](images/lab01/img22006.png)
+
+The new compartment is now available in the compartment list.
+
+![](images/lab01/img22007.png)
 
 ## **STEP 3.1:** Storage Overview
 
