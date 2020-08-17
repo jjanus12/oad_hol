@@ -32,7 +32,7 @@ Contents
 ## **STEP 3.2:** Object Storage
 
 Example text for Object Storage description.
-![](images/lab01/img001.png)
+![](images/lab01/img001.jpg)
 
 ## **STEP 4.1:** Autonomous Database Overview
 
