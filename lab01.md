@@ -30,7 +30,7 @@ Contents
 Overview of Oracle Cloud Infrastructure Identity and Access Management
 Oracle Cloud Infrastructure Identity and Access Management (IAM) lets you control who has access to your cloud resources. You can control what type of access a group of users have and to which specific resources. This section gives you an overview of IAM components. 
 
-# Components of IAM 
+### Components of IAM 
 
 • RESOURCE: The cloud objects that your company's employees create and use when interacting with Oracle Cloud Infrastructure. For example: compute instances, block storage volumes, virtual cloud networks (VCNs), subnets, route tables, etc.
 
