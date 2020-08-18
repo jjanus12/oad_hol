@@ -91,7 +91,39 @@ The new compartment is now available in the compartment list.
 
 ## **STEP 3.1:** Autonomous Database Overview
 
+Navigate to the 'Autonomous Transaction Processing' tab in the drop-down menu on the top right
 ![](images/lab01/ATP1.png)
+
+Processed by pressing on 'Create Autonomous Database'
+![](images/lab01/ATP2.png)
+
+In the pop-up menu configure the following settings
+![](images/lab01/ATP3.png)
+
+IMPORTANT: Note you Admin password, you will need it later!
+![](images/lab01/ATP4.png)
+
+![](images/lab01/ATP5.png)
+When everything is set up as above click on 'Create Autonomous Database', this might take a few minutes
+
+After the Status switches to 'Available', indicated by the green dot, you will be able to access the database
+![](images/lab01/ATP6.png)
+
+Click on the database name to see more details.
+Here you will find the option to connect to your Database and download the connection wallet
+![](images/lab01/ATP7.png)
+
+Click on the 'DB Connection', to pull up a pop-up allowing you to download the wallet.
+Choose to 'Download Wallet'
+![](images/lab01/ATP8.png)
+
+Set up a password that allows you to download the wallet in the future and click on 'Download'
+![](images/lab01/ATP9.png)
+
+Finally save the downloaded wallet file in he 'Scripts' folder of the downloaded Mushop file downloaded at the start of this Lab
+![](images/lab01/ATP10.png)
+
+Congratulations you have successfully created an Autonomous Database and downloaded the connection wallet!
 
 ## **STEP 4.1:** Storage Overview
 
@@ -100,7 +132,6 @@ The new compartment is now available in the compartment list.
 Example text for Object Storage description.
 ![](images/lab01/img001.jpg)
 
-Test
 
 ## **STEP 5.1:** Networking Overview
 
