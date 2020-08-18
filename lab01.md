@@ -89,16 +89,18 @@ The new compartment is now available in the compartment list.
 
 ![](images/lab01/img22007.png)
 
-## **STEP 3.1:** Storage Overview
+## **STEP 3.1:** Autonomous Database Overview
 
-## **STEP 3.2:** Object Storage
+
+
+## **STEP 4.1:** Storage Overview
+
+## **STEP 4.2:** Object Storage
 
 Example text for Object Storage description.
 ![](images/lab01/img001.jpg)
 
 Test
-
-## **STEP 4.1:** Autonomous Database Overview
 
 ## **STEP 5.1:** Networking Overview
 
