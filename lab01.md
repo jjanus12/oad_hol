@@ -138,9 +138,34 @@ Congratulations you have successfully created an Autonomous Database and downloa
 
 ## **STEP 4.2:** Object Storage
 
-Example text for Object Storage description.
-![](images/lab01/img001.jpg)
+Navigate to 'Object Storage' in your OCI Instance over the drop-down menu in the top left
 
+![](images/lab01/OBS1.png)
+
+Here we will create two buckets, 'mushop' and 'mushop-media', start creating one by clicking 'Create Bucket'
+
+![](images/lab01/OBS2.png)
+
+For both buckets set the following parameters and hit create once everything is set up
+
+![](images/lab01/OBS3.png)
+
+You should now have 2 buckets, both will be set to private by default
+
+![](images/lab01/OBS4.png)
+
+Now we will have to set mushop-media to public. Press on the name to see more options
+Click Edit Visibility, in the pop-up window change the setting to public and Save Changes
+
+![](images/lab01/OBS5.png)
+
+
+
+![](images/lab01/OBS6.png)
+
+![](images/lab01/OBS7.png)
+
+![](images/lab01/OBS8.png)
 
 ## **STEP 5.1:** Networking Overview
 
