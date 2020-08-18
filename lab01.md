@@ -159,11 +159,12 @@ Click Edit Visibility, in the pop-up window change the setting to public and Sav
 
 ![](images/lab01/OBS5.png)
 
-
-
-![](images/lab01/OBS6.png)
+Lastly we will upload files for mushop to the buckets we created
 
 ![](images/lab01/OBS7.png)
+
+Press Upload and navigate to the files downloaded at the beginning of the workshop. Add the files to a bucket by dragging it on to the drop file field or clicking select file.
+For mushop upload all files in the Scripts folder and for mushop-media upload all files in the Image folder.
 
 ![](images/lab01/OBS8.png)
 
