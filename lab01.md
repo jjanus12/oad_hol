@@ -91,7 +91,7 @@ The new compartment is now available in the compartment list.
 
 ## **STEP 3.1:** Autonomous Database Overview
 
-
+![](images/lab01/ATP1.png)
 
 ## **STEP 4.1:** Storage Overview
 
