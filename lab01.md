@@ -25,6 +25,8 @@ Contents
 
 ## **STEP 1:** Architecture
 
+![](images/lab01/img1001.png)
+
 ## **STEP 2.1:** Identity & Access Management Overview
 
 Overview of Oracle Cloud Infrastructure Identity and Access Management
