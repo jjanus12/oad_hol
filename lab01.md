@@ -178,6 +178,29 @@ The Oracle Cloud Infrastructure Load Balancing service provides automated traffi
 
 A load balancer improves resource utilization, facilitates scaling, and helps ensure high availability. You can configure multiple load balancing policies and application-specific health checks to ensure that the load balancer directs traffic only to healthy instances. The load balancer can reduce your maintenance window by draining traffic from an unhealthy application server before you remove it from service for maintenance.
 
+### Load Balancing Components
+
+**Public Load Balancer**: To accept traffic from the internet, you create a public load balancer. The service assigns it a public IP address that serves as the entry point for incoming traffic. 
+
+**Private Load Balancer**: To isolate your load balancer from the internet and simplify your security posture, you can create a private load balancer. The Load Balancing service assigns it a private IP address that serves as the entry point for incoming traffic.
+
+**Load Balancer Bandwitdth**: A template that determines the load balancer's total pre-provisioned maximum capacity (bandwidth) for ingress plus egress traffic. Available shapes include 10Mbps, 100 Mbps, 400 Mbps, and 8000 Mbps.
+
+**Load Balancing Policy**: A load balancing policy tells the load balancer how to distribute incoming traffic to the backend servers. Common load balancer policies include:
+- Round robin
+- Least connections
+- IP hash
+
+**Health Check Policy**: A health check is a test to confirm the availability of backend servers. A health check can be a request or a connection attempt. You can configure TCP-level or HTTP-level health checks for your backend servers. Based on a time interval you specify, the load balancer applies the health check policy to continuously monitor backend servers. 
+
+**Backend Server**: An application server responsible for generating content in reply to the incoming TCP or HTTP traffic. 
+
+**Backend Set**: A logical entity defined by a list of backend servers, a load balancing policy, and a health check policy.
+
+**Listener**: A logical entity that checks for incoming traffic on the load balancer's IP address. You configure a listener's protocol and port number, and the optional SSL settings. To handle TCP, HTTP, and HTTPS traffic, you must configure multiple listeners.
+
+To see the full list of all Load Balancing components please visit: https://docs.cloud.oracle.com/en-us/iaas/Content/Balance/Concepts/balanceoverview.htm
+
 ## **STEP 7.2:** Create your Load Balancer 
 
 In this first exercise, you will create your first Load Balancer. 
