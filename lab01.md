@@ -189,9 +189,24 @@ For mushop upload all files in the Scripts folder and for mushop-media upload al
 
 ![](images/lab01/OBS8.png)
 
-## **STEP 5.1:** Networking Overview
+## **STEP 5.1:** Virtual Cloud Networks Overview
+
+Oracle Cloud Infrastructure lets you create multiple Virtual Cloud Networks (VCNs). These VCNs will contain the security lists, compute instances, load balancers and many other types of network assets.
+
+Make sure to review [Overview of Networking](https://docs.cloud.oracle.com/en-us/iaas/Content/Network/Concepts/overview.htm) to gain full understanding of the network components and their relationships, or take a look at this video:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mIYSgeX5FkM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## **STEP 5.2:** Create Your VCN
+
+To create VCN on Oracle Cloud Infrastructure:
+
+On 
+
 
 ## **STEP 6.1:** Compute Overview
+
+
 
 ## **STEP 7.1:** Load Balancer Overview
 
