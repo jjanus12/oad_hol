@@ -81,8 +81,9 @@ The new compartment is now available in the compartment list.
 
 ![](images/lab01/img22007.png)
 
-## **STEP 3.1:** Autonomous Database Overview
+## **STEP 3:** Autonomous Database Overview
 
+# **STEP 3.1:** Provisioning Autonomous Transaction Processing
 
 In Oracle Cloud Infrastructure you can choose between two different Databases, Autonomous Datawarehouse and Autonomous Transaction Processing, The latter we will be provisioning today. 
 Oracle Autonomous Transaction Processing delivers a self-driving, self-securing, self-repairing database service that can instantly scale to meet demands of a variety of applications: mission-critical transaction processing, mixed transactions and analytics, IoT, JSON documents, and so on.
@@ -103,9 +104,11 @@ Note the difference between 'Shared Infrastructure' and 'Dedicated Infrastructur
 
 ![](images/lab01/ATP3.png)
 
-IMPORTANT: Note you Admin password, you will need it later!
+IMPORTANT: Save your Admin Password for later you will need it to access the warehouse and grant other users access to it.
 
 ![](images/lab01/ATP4.png)
+
+If you have an on-premises license you can bring it to the cloud by choosing 'Bring your own License'. For this Lab we will go with 'License included' so Oracle will provide you the license with your data warhouse.
 
 ![](images/lab01/ATP5.png)
 When everything is set up as above click on 'Create Autonomous Database', this might take a few minutes
@@ -114,17 +117,20 @@ After the Status switches to 'Available', indicated by the green dot, you will b
 
 ![](images/lab01/ATP6.png)
 
-Click on the database name to see more details
-Here you will find the option to connect to your Database and download the connection wallet
+# **STEP 3.2:** Downloading the Connection Wallet
+
+Click on the database name to see more details.
+Here you can find all the information about your data warehouse that you need.
+In order to connect to your data warehouse you will require a Connection Wallet. This will guarantee you a secure connection to the data warehouse and only users with access to that wallet will be able to connect, so keep it safe and do not distribute it freely.
+On the top left you will find the 'DB Connecton' option, click it to start downloading the connection wallet.
 
 ![](images/lab01/ATP7.png)
 
-Click on the 'DB Connection', to pull up a pop-up allowing you to download the wallet.
-Choose to 'Download Wallet'
+Choose to 'Download Wallet' in the pop-up window.
 
 ![](images/lab01/ATP8.png)
 
-Set up a password that allows you to download the wallet in the future and click on 'Download'
+Set up a password that allows you to download the wallet in the future and click on 'Download'.
 
 ![](images/lab01/ATP9.png)
 
