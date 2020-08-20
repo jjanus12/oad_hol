@@ -42,7 +42,7 @@ Oracle Cloud Infrastructure Identity and Access Management (IAM) lets you contro
 
 • **Home Region**: The region where your IAM resources reside. All IAM resources are global and available across all regions, but the master set of definitions reside in a single region, the home region. You must make changes to your IAM resources in your home region. The changes will be automatically propagated to all regions. 
 
-To see the full list of all IAM components please visit: https://docs.cloud.oracle.com/en-us/iaas/Content/Identity/Concepts/overview.htm
+To see the full list of all IAM components please visit documentation [here](https://docs.cloud.oracle.com/en-us/iaas/Content/Identity/Concepts/overview.htm).
 
 ## **STEP 2.2:** Create your Compartment
 
@@ -155,9 +155,7 @@ Oracle Cloud Infrastructure has several different types of storage available:
 In this Lab we will focus on Object Storage as it is best suited for constant use of data.
 Use Object Storage for data to which you need fast, immediate, and frequent access. Data accessibility and performance justifies a higher price to store data in the Object Storage tier.
 
-if you are interested in any other type of storage listed above visit:
-
-https://docs.cloud.oracle.com/en-us/iaas/Content/home.htm
+if you are interested in any other type of storage listed above please visit documentation [here](https://docs.cloud.oracle.com/en-us/iaas/Content/home.htm)
 
 # **STEP 4.1:** Object Storage
 
@@ -222,7 +220,7 @@ A load balancer improves resource utilization, facilitates scaling, and helps en
 
 **Listener**: A logical entity that checks for incoming traffic on the load balancer's IP address. You configure a listener's protocol and port number, and the optional SSL settings. To handle TCP, HTTP, and HTTPS traffic, you must configure multiple listeners.
 
-To see the full list of all Load Balancing components please visit: https://docs.cloud.oracle.com/en-us/iaas/Content/Balance/Concepts/balanceoverview.htm
+To see the full list of all Load Balancing components please visit documentation [here](https://docs.cloud.oracle.com/en-us/iaas/Content/Balance/Concepts/balanceoverview.htm)
 
 ## **STEP 7.2:** Create your Load Balancer 
 
