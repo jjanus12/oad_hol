@@ -141,9 +141,25 @@ Finally save the downloaded wallet file in he 'Scripts' folder of the downloaded
 
 Congratulations you have successfully created an Autonomous Database and downloaded the connection wallet!
 
-## **STEP 4.1:** Storage Overview
+## **STEP 4:** Storage Overview
 
-## **STEP 4.2:** Object Storage
+Oracle Cloud Infrastructure has several different types of storage available:
+
+    Archive Storage
+    Block Volume
+    Data Transfer
+    File Storage
+    Object Storage
+    Storage Gateway
+
+In this Lab we will focus on Object Storage as it is best suited for constant use of data.
+Use Object Storage for data to which you need fast, immediate, and frequent access. Data accessibility and performance justifies a higher price to store data in the Object Storage tier.
+
+if you are interested in any other type of storage listed above visit:
+
+https://docs.cloud.oracle.com/en-us/iaas/Content/home.htm
+
+# **STEP 4.1:** Object Storage
 
 Navigate to 'Object Storage' in your OCI Instance over the drop-down menu in the top left
 
