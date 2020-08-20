@@ -173,6 +173,8 @@ A load balancer improves resource utilization, facilitates scaling, and helps en
 
 The Load Balancing service enables you to create a public or private load balancer within your VCN. A public load balancer has a public IP address that is accessible from the internet. A private load balancer has an IP address from the hosting subnet, which is visible only within your VCN. You can configure multiple listeners  for an IP address to load balance transport Layer 4 and Layer 7 (TCP and HTTP) traffic. Both public and private load balancers can route data traffic to any backend server that is reachable from the VCN.
 
+## **STEP 7.2:** Create your Load Balancer 
+
 In this first exercise, you will create your first Load Balancer. 
 
 Before creating a Load Balancer you need to have the following cloud resources:
