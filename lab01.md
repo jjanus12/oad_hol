@@ -209,6 +209,9 @@ You will be using these networking components in the following two exercises:
 
 **VNIC**: A virtual network interface card (VNIC), which attaches to an instance and resides in a subnet to enable a connection to the subnet's VCN. The VNIC determines how the instance connects with endpoints inside and outside the VCN. Each instance has a primary VNIC that's created during instance launch and cannot be removed.
 
+**Public IP**: A public IPv4 address and related information.
+
+**Private IP**: A private IPv4 address and related information for addressing an instance (for example, a hostname for DNS).
 
 Please review [Overview of Networking](https://docs.cloud.oracle.com/en-us/iaas/Content/Network/Concepts/overview.htm) to gain full understanding of the network components and their relationships, or take a look at this video:
 
