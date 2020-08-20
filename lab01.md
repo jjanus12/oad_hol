@@ -195,7 +195,9 @@ Oracle Cloud Infrastructure lets you create multiple Virtual Cloud Networks (VCN
 
 Please review [Overview of Networking](https://docs.cloud.oracle.com/en-us/iaas/Content/Network/Concepts/overview.htm) to gain full understanding of the network components and their relationships, or take a look at this video:
 
+<div class="video-container">
 <iframe src="https://www.youtube.com/embed/mIYSgeX5FkM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## **STEP 5.2:** Create Your VCN
 
