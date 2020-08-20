@@ -213,6 +213,8 @@ You will be using these networking components in the following exercises:
 
 **Private IP**: A private IPv4 address and related information for addressing an instance (for example, a hostname for DNS).
 
+**Availability Domain**: Your VCN resides in a single Oracle Cloud Infrastructure region. A region can have multiple availability domains (individual datacenters) to provide isolation and redundancy.
+
 Please review [Overview of Networking](https://docs.cloud.oracle.com/en-us/iaas/Content/Network/Concepts/overview.htm) to gain full understanding of the network components and their relationships, or take a look at this video:
 
 <div class="video-container">
