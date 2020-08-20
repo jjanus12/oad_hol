@@ -199,6 +199,7 @@ Please review [Overview of Networking](https://docs.cloud.oracle.com/en-us/iaas/
 <iframe src="https://www.youtube.com/embed/mIYSgeX5FkM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+
 ## **STEP 5.2:** Create Your VCN
 
 To create VCN on Oracle Cloud Infrastructure:
