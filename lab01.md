@@ -83,7 +83,7 @@ The new compartment is now available in the compartment list.
 
 ## **STEP 3:** Autonomous Database Overview
 
-In Oracle Cloud Infrastructure you can choose between two different Databases, Autonomous Datawarehouse and Autonomous Transaction Processing, The latter we will be provisioning today. 
+In Oracle Cloud Infrastructure you can choose between two different Databases, Autonomous Datawarehouse and Autonomous Transaction Processing, the latter we will be provisioning today. 
 Oracle Autonomous Transaction Processing delivers a self-driving, self-securing, self-repairing database service that can instantly scale to meet demands of a variety of applications: mission-critical transaction processing, mixed transactions and analytics, IoT, JSON documents, and so on.
 
 # **STEP 3.1:** Provisioning Autonomous Transaction Processing
@@ -99,8 +99,9 @@ Processed by pressing on 'Create Autonomous Database'
 In the pop-up menu configure the following settings.
 Note the difference between 'Shared Infrastructure' and 'Dedicated Infrastructure'.
 
-1)Dedicated, a private cloud in public cloud choice. A completely dedicated compute, storage, network and database service for only a single tenant. Dedicated infrastructure provides for the highest levels of security isolation and governance. The customer has customizable operational policies to guide Autonomous Operations for workload placement, workload optimization, update scheduling, availability level, over provisioning and peak usage.
-2)Shared, a simple and elastic choice. Oracle autonomously operates all aspects of the database life cycle from database placement to backup and updates. 
+1) Dedicated, a private cloud in public cloud choice. A completely dedicated compute, storage, network and database service for only a single tenant. Dedicated infrastructure provides for the highest levels of security isolation and governance. The customer has customizable operational policies to guide Autonomous Operations for workload placement, workload optimization, update scheduling, availability level, over provisioning and peak usage.
+
+2) Shared, a simple and elastic choice. Oracle autonomously operates all aspects of the database life cycle from database placement to backup and updates. 
 
 ![](images/lab01/ATP3.png)
 
