@@ -189,7 +189,7 @@ For mushop upload all files in the Scripts folder and for mushop-media upload al
 
 ![](images/lab01/OBS8.png)
 
-## **STEP 5.1:** Virtual Cloud Networks Overview
+## **STEP 5:** Virtual Cloud Networks Overview
 
 Oracle Cloud Infrastructure lets you create multiple Virtual Cloud Networks (VCNs). These VCNs will contain the security lists, compute instances, load balancers and many other types of network assets.
 
@@ -200,18 +200,18 @@ Please review [Overview of Networking](https://docs.cloud.oracle.com/en-us/iaas/
 </div>
 
 
-## **STEP 5.2:** Create Your VCN
+## **STEP 5.1:** Create Your VCN
 
 To create VCN on Oracle Cloud Infrastructure:
 
 On 
 
 
-## **STEP 6.1:** Compute Overview
+## **STEP 6:** Compute Overview
 
 
 
-## **STEP 7.1:** Load Balancer Overview
+## **STEP 7:** Load Balancer Overview
 
 The Oracle Cloud Infrastructure Load Balancing service provides automated traffic distribution from one entry point to multiple servers reachable from your virtual cloud network (VCN). The service offers a load balancer with your choice of a public or private IP address, and provisioned bandwidth.
 
@@ -240,7 +240,7 @@ A load balancer improves resource utilization, facilitates scaling, and helps en
 
 To see the full list of all Load Balancing components please visit documentation [here](https://docs.cloud.oracle.com/en-us/iaas/Content/Balance/Concepts/balanceoverview.htm).
 
-## **STEP 7.2:** Create your Load Balancer 
+## **STEP 7.1:** Create your Load Balancer 
 
 In this first exercise, you will create your first Load Balancer. 
 
