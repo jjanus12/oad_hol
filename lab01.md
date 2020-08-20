@@ -191,7 +191,20 @@ For mushop upload all files in the Scripts folder and for mushop-media upload al
 
 ## **STEP 5:** Virtual Cloud Networks Overview
 
-Oracle Cloud Infrastructure lets you create multiple Virtual Cloud Networks (VCNs). These VCNs will contain the security lists, compute instances, load balancers and many other types of network assets.
+Oracle Cloud Infrastructure lets you create multiple Virtual Cloud Networks (VCNs). These VCNs will contain the subnets, security lists, route tables, compute instances, load balancers and many other types of network assets.
+
+### Networking Components
+
+**Virtual Cloud Network VCN**: A virtual, private network that you set up in Oracle data centers. It closely resembles a traditional network, with firewall rules and specific types of communication gateways that you can choose to use.
+
+**Subnet**: Subdivisions you define in a VCN (for example, 10.0.0.0/24 and 10.0.1.0/24). Subnets contain virtual network interface cards (VNICs), which attach to instances. Each subnet consists of a contiguous range of IP addresses that do not overlap with other subnets in the VCN.
+
+**Security List**: Virtual firewall rules for your VCN. They are ingress and egress rules that specify the types of traffic (protocol and port) allowed in and out of the instances.
+
+**Internet Gateway**: For resources with public IP addresses that need to be reached from the internet (example: a web server) or need to initiate connections to the internet.
+
+**Route Table**: Virtual route tables for your VCN. They have rules to route traffic from subnets to destinations outside the VCN by way of gateways or specially configured instances.
+
 
 Please review [Overview of Networking](https://docs.cloud.oracle.com/en-us/iaas/Content/Network/Concepts/overview.htm) to gain full understanding of the network components and their relationships, or take a look at this video:
 
