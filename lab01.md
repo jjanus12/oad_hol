@@ -195,7 +195,7 @@ Oracle Cloud Infrastructure lets you create multiple Virtual Cloud Networks (VCN
 
 ### Networking Components
 
-You will be using these networking components in the following two exercises:
+You will be using these networking components in the following exercises:
 
 **Virtual Cloud Network VCN**: A virtual, private network that you set up in Oracle data centers. It closely resembles a traditional network, with firewall rules and specific types of communication gateways that you can choose to use.
 
