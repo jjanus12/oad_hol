@@ -86,7 +86,7 @@ The new compartment is now available in the compartment list.
 In Oracle Cloud Infrastructure you can choose between two different Databases, Autonomous Datawarehouse and Autonomous Transaction Processing, the latter we will be provisioning today. 
 Oracle Autonomous Transaction Processing delivers a self-driving, self-securing, self-repairing database service that can instantly scale to meet demands of a variety of applications: mission-critical transaction processing, mixed transactions and analytics, IoT, JSON documents, and so on.
 
-# **STEP 3.1:** Provisioning Autonomous Transaction Processing
+## **STEP 3.1:** Provisioning Autonomous Transaction Processing
 
 To partician an Autonomous Database navigate to the 'Autonomous Transaction Processing' tab in the drop-down menu on the top right
 
@@ -118,7 +118,7 @@ After the Status switches to 'Available', indicated by the green dot, you will b
 
 ![](images/lab01/ATP6.png)
 
-# **STEP 3.2:** Downloading the Connection Wallet
+## **STEP 3.2:** Downloading the Connection Wallet
 
 Click on the database name to see more details.
 Here you can find all the information about your data warehouse that you need.
@@ -157,7 +157,7 @@ Use Object Storage for data to which you need fast, immediate, and frequent acce
 
 if you are interested in any other type of storage listed above please visit documentation [here](https://docs.cloud.oracle.com/en-us/iaas/Content/home.htm).
 
-# **STEP 4.1:** Object Storage
+## **STEP 4.1:** Object Storage
 
 Navigate to 'Object Storage' in your OCI Instance over the drop-down menu in the top left
 
