@@ -232,9 +232,14 @@ Please review [Overview of Networking](https://docs.cloud.oracle.com/en-us/iaas/
 
 ## **STEP 5.1:** Create Your VCN
 
-To create VCN on Oracle Cloud Infrastructure:
+To create VCN on Oracle Cloud Infrastructure navigate to the **Virtual Cloud Networks** tab and click **Create VCN**.
 
-On
+![](images/lab01/img51001.png)
+
+![](images/lab01/img51002.png)
+
+
+**Note**: In real-world situations, you would create multiple VCNs based on their need for access (which ports to open) and who can access them.
 
 ## **STEP 6:** Compute Overview
 
