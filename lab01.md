@@ -252,7 +252,7 @@ The Cloud Shell machine is a small virtual machine running a Bash shell which yo
 To start the Oracle Cloud Shel, go to your Cloud console and click the **cloud shell icon** at the top right of the page.
 
 
-Once the cloud shell has started, enter the following command:
+Once the cloud shell has started, enter the following command to **create new directory .ssh**:
 
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
@@ -261,6 +261,8 @@ Once the cloud shell has started, enter the following command:
 </code>
 </pre>
 
+Enter the following command to **change directory** to .ssh directory you have just created:
+
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
 <code>
@@ -268,8 +270,7 @@ Once the cloud shell has started, enter the following command:
 </code>
 </pre>
 
-
-Choose the **keyname** you can remember. This will be the **keyname** you will use to connect to any compute instances you create.
+Enter the following command to generate your ssh key:
 
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
