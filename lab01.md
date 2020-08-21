@@ -289,6 +289,8 @@ Enter the following command to generate your ssh key:
 Press **Enter** twice for no passphrase.
 
 
+**Congratulations you have successfully generated your ssh key!**
+
 ## **STEP 6.2:** Creating a Web Server on a Compute Instance
 
 ## **STEP 6.3:** Connect to the Compute Instance and Deploy the Application
