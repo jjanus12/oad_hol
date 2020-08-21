@@ -97,7 +97,7 @@ To partician an Autonomous Database navigate to the 'Autonomous Transaction Proc
 
 ![](images/lab01/ATP1.png)
 
-Processed by pressing on 'Create Autonomous Database'
+Processed by pressing on **Create Autonomous Database**
 
 ![](images/lab01/ATP2.png)
 
