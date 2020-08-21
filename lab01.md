@@ -170,7 +170,7 @@ Navigate to **Object Storage** in your OCI Instance over the drop-down menu in t
 
 ![](images/lab01/OBS1.png)
 
-Here we will create two buckets, **mushop** and **mushop-media**, start creating one by clicking **Create Bucket**.
+Here we will create two buckets and name them **mushop** and **mushop-media**, start creating one by clicking **Create Bucket**.
 Buckets are the logical containers in which you store objects.
 
 ![](images/lab01/OBS2.png)
