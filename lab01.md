@@ -241,6 +241,12 @@ On
 
 ## **STEP 6.1:** Generate SSH Keys
 
+The SSH (Secure Shell) protocol is a method for secure remote login from one computer to another. SSH enables secure system administration and file transfers over insecure networks using encryption to secure the connections between endpoints. SSH keys are an important part of securely accessing Oracle Cloud Infrastructure compute instances in the cloud.
+
+We recommend you use the Oracle **Cloud Shell** to interface with the OCI compute instance you will create. Oracle Cloud Shell is browser-based, does not require installation or configuration of software on your laptop, and works independently of your network setup.
+
+**IMPORTANT: If the SSH key is not created correctly, you will not be able to connect to your environment and will get errors. Please ensure you create your key properly.**
+
 ## **STEP 6.2:** Creating a Web Server on a Compute Instance
 
 ## **STEP 6.3:** Connect to the Compute Instance and Deploy the Application
