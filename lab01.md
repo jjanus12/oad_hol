@@ -249,8 +249,13 @@ We recommend you use the Oracle **Cloud Shell** to interface with the OCI comput
 
 The Cloud Shell machine is a small virtual machine running a Bash shell which you access through the OCI Console (Homepage). Cloud Shell comes with a pre-authenticated OCI CLI (Command Line Interface), set to the Console tenancy home page region, as well as up-to-date tools and utilities. To use the Cloud Shell machine, your tenancy administrator must grant the required IAM (Identity and Access Management) policy.
 
-To start the Oracle Cloud Shel, go to your Cloud console and click the **cloud shell icon** at the top right of the page.
+To start the Oracle Cloud Shell, go to your Cloud console and click the **cloud shell icon** at the top right of the page. Then wait a bit until Cloud Shell gets started.
 
+![](images/lab01/img61001.png)
+
+![](images/lab01/img61002.png)
+
+![](images/lab01/img61003.png)
 
 Once the cloud shell has started, enter the following command to **create new directory .ssh**:
 
