@@ -88,12 +88,13 @@ The new compartment is now available in the compartment list.
 
 ## **STEP 3:** Autonomous Database Overview
 
+
 In Oracle Cloud Infrastructure you can choose between two different Databases, Autonomous Datawarehouse and Autonomous Transaction Processing, the latter we will be provisioning today. 
 Oracle Autonomous Transaction Processing delivers a self-driving, self-securing, self-repairing database service that can instantly scale to meet demands of a variety of applications: mission-critical transaction processing, mixed transactions and analytics, IoT, JSON documents, and so on.
 
 ## **STEP 3.1:** Provisioning Autonomous Transaction Processing
 
-To partician an Autonomous Database navigate to the 'Autonomous Transaction Processing' tab in the drop-down menu on the top right
+To provision an Autonomous Database navigate to the **Autonomous Transaction Processing** tab in the drop-down menu on the top right
 
 ![](images/lab01/ATP1.png)
 
@@ -102,24 +103,25 @@ Processed by pressing on **Create Autonomous Database**
 ![](images/lab01/ATP2.png)
 
 In the pop-up menu configure the following settings.
-Note the difference between 'Shared Infrastructure' and 'Dedicated Infrastructure'.
+Note the difference between **Shared Infrastructure** and **Dedicated Infrastructure**.
 
-1) Dedicated, a private cloud in public cloud choice. A completely dedicated compute, storage, network and database service for only a single tenant. Dedicated infrastructure provides for the highest levels of security isolation and governance. The customer has customizable operational policies to guide Autonomous Operations for workload placement, workload optimization, update scheduling, availability level, over provisioning and peak usage.
+- Dedicated, a private cloud in public cloud choice. A completely dedicated compute, storage, network and database service for only a single tenant. Dedicated infrastructure provides for the highest levels of security isolation and governance. The customer has customizable operational policies to guide Autonomous Operations for workload placement, workload optimization, update scheduling, availability level, over provisioning and peak usage.
 
-2) Shared, a simple and elastic choice. Oracle autonomously operates all aspects of the database life cycle from database placement to backup and updates. 
+- Shared, a simple and elastic choice. Oracle autonomously operates all aspects of the database life cycle from database placement to backup and updates. 
 
 ![](images/lab01/ATP3.png)
 
-IMPORTANT: Save your Admin Password for later you will need it to access the warehouse and grant other users access to it.
+**NOTE: Save your Admin Password for later you will need it to access the warehouse and grant other users access to it.**
 
 ![](images/lab01/ATP4.png)
 
-If you have an on-premises license you can bring it to the cloud by choosing 'Bring your own License'. For this Lab we will go with 'License included' so Oracle will provide you the license with your data warhouse.
+If you have an on-premises license you can bring it to the cloud by choosing **Bring your own License**. For this Lab we will go with **License included** so Oracle will provide you the license with your data warhouse.
 
 ![](images/lab01/ATP5.png)
-When everything is set up as above click on 'Create Autonomous Database', this might take a few minutes
 
-After the Status switches to 'Available', indicated by the green dot, you will be able to access the database
+When everything is set up as above click on **Create Autonomous Database**, this might take a few minutes
+
+After the Status switches to **Available**, indicated by the green dot, you will be able to access the database
 
 ![](images/lab01/ATP6.png)
 
@@ -127,20 +129,20 @@ After the Status switches to 'Available', indicated by the green dot, you will b
 
 Click on the database name to see more details.
 Here you can find all the information about your data warehouse that you need.
-In order to connect to your data warehouse you will require a Connection Wallet. This will guarantee you a secure connection to the data warehouse and only users with access to that wallet will be able to connect, so keep it safe and do not distribute it freely.
+In order to connect to your transaction processing you will require a Connection Wallet. This will guarantee you a secure connection to the transation processing and only users with access to that wallet will be able to connect, so keep it safe and do not distribute it freely.
 On the top left you will find the 'DB Connecton' option, click it to start downloading the connection wallet.
 
 ![](images/lab01/ATP7.png)
 
-Choose to 'Download Wallet' in the pop-up window.
+Choose to **Download Wallet* in the pop-up window.
 
 ![](images/lab01/ATP8.png)
 
-Set up a password that allows you to download the wallet in the future and click on 'Download'.
+Set up a password that allows you to download the wallet in the future and click on **Download**.
 
 ![](images/lab01/ATP9.png)
 
-Finally save the downloaded wallet file in he 'Scripts' folder of the downloaded Mushop file downloaded at the start of this Lab
+Finally save the downloaded wallet file in he **Scripts** folder of the downloaded Mushop file downloaded at the start of this Lab
 
 ![](images/lab01/ATP10.png)
 
