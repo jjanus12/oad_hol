@@ -257,7 +257,7 @@ To start the Oracle Cloud Shell, go to your Cloud console and click the **cloud 
 
 ![](images/lab01/img61003.png)
 
-Once the cloud shell has started, enter the following command to create new directory .ssh:
+Once the cloud shell has started, enter the following command to create a new directory .ssh:
 
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
