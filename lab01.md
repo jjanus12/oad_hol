@@ -327,6 +327,27 @@ Mark the key and copy it (e.g. use the Notepad). You will be pasting the key int
 
 ## **STEP 6.2:** Creating a Web Server on a Compute Instance
 
+Oracle Cloud Infrastructure offers both Bare Metal and Virtual Machine instances:
+
+- **Bare Metal** - A bare metal compute instance gives you dedicated physical server access for highest performance and strong isolation.
+- **Virtual Machine** - A Virtual Machine (VM) is an independent computing environment that runs on top of physical bare metal hardware. The virtualization makes it possible to run multiple VMs that are isolated from each other. VMs are ideal for running applications that do not require the performance and resources (CPU, memory, network bandwidth, storage) of an entire physical machine.
+
+An Oracle Cloud Infrastructure VM compute instance runs on the same hardware as a Bare Metal instance, leveraging the same cloud-optimized hardware, firmware, software stack, and networking infrastructure.
+
+Navigate to the **Compute** tab and click **Create Instance**. We will launch a VM instance for this lab.
+
+The Create Compute Instance wizard will launch. Set the name of the server to **mushop-Web-Server-1**. Click on the **Show Shape, Networking, Storage Options** link to expand that area of the page.
+
+Most of the defaults are perfect for our purposes. However, you will need to scroll down to the Configure Networking area of the page and select the **Assign a public IP address** option.
+
+**Note**: You need a public IP address so that you can SSH into the running instance later in this lab.
+
+Scroll down to the SSH area of the page. Choose Paste SSH Key that you created earlier in Generate SSH Keys step. Press the **Create** button to create your instance.
+
+Launching an instance is simple and intuitive with few options to select. The provisioning of the compute instance will complete in less than a minute and the instance state will change from provisioning to running.
+
+Once the instance state changes to **Running**, you can SSH to the Public IP address of the instance.
+
 ## **STEP 6.3:** Connect to the Compute Instance and Deploy the Application
 
 ## **STEP 6.4:** Create a Custom Image from your Deployment
