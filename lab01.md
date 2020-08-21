@@ -161,19 +161,20 @@ if you are interested in any other type of storage listed above please visit doc
 
 ## **STEP 4.1:** Object Storage
 
-Navigate to 'Object Storage' in your OCI Instance over the drop-down menu in the top left
+Navigate to 'Object Storage' in your OCI Instance over the drop-down menu in the top left.
 
 ![](images/lab01/OBS1.png)
 
-Here we will create two buckets, 'mushop' and 'mushop-media', start creating one by clicking 'Create Bucket'
+Here we will create two buckets, 'mushop' and 'mushop-media', start creating one by clicking 'Create Bucket'.
+Buckets are the logical containers in which you store objects.
 
 ![](images/lab01/OBS2.png)
 
-For both buckets set the following parameters and hit create once everything is set up
+For both buckets set the following parameters and hit create once everything is set up.
 
 ![](images/lab01/OBS3.png)
 
-You should now have 2 buckets, both will be set to private by default
+You should now have 2 buckets, both will be set to private by default.
 
 ![](images/lab01/OBS4.png)
 
