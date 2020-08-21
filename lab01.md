@@ -261,11 +261,26 @@ Once the cloud shell has started, enter the following command:
 </code>
 </pre>
 
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">cd .ssh</span>
+</code>
+</pre>
 
-Choose the key name you can remember. This will be the keyname you will use to connect to any compute instances you create.
 
+Choose the **keyname** you can remember. This will be the **keyname** you will use to connect to any compute instances you create.
 
-Press Enter twice for no passphrase.
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">ssh-keygen -b 2048 -t rsa -f <<sshkeyname>></span>
+</code>
+</pre>
+
+**Note**: The angle brackets <<>>> should not appear in your code.
+
+Press **Enter** twice for no passphrase.
 
 
 ## **STEP 6.2:** Creating a Web Server on a Compute Instance
