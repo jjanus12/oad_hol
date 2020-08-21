@@ -152,12 +152,12 @@ Congratulations you have successfully created an Autonomous Database and downloa
 
 Oracle Cloud Infrastructure has several different types of storage available:
 
-    Archive Storage
-    Block Volume
-    Data Transfer
-    File Storage
-    Object Storage
-    Storage Gateway
+   - Archive Storage
+   - Block Volume
+   - Data Transfer
+   - File Storage
+   - Object Storage
+   - Storage Gateway
 
 In this Lab we will focus on Object Storage as it is best suited for constant use of data.
 Use Object Storage for data to which you need fast, immediate, and frequent access. Data accessibility and performance justifies a higher price to store data in the Object Storage tier.
@@ -166,11 +166,11 @@ if you are interested in any other type of storage listed above please visit doc
 
 ## **STEP 4.1:** Object Storage
 
-Navigate to 'Object Storage' in your OCI Instance over the drop-down menu in the top left.
+Navigate to **Object Storage** in your OCI Instance over the drop-down menu in the top left.
 
 ![](images/lab01/OBS1.png)
 
-Here we will create two buckets, 'mushop' and 'mushop-media', start creating one by clicking 'Create Bucket'.
+Here we will create two buckets, **mushop** and **mushop-media**, start creating one by clicking **Create Bucket**.
 Buckets are the logical containers in which you store objects.
 
 ![](images/lab01/OBS2.png)
@@ -183,12 +183,12 @@ You should now have 2 buckets, both will be set to private by default.
 
 ![](images/lab01/OBS4.png)
 
-Now we will have to set mushop-media to public. Press on the name to see more options
-Click Edit Visibility, in the pop-up window change the setting to public and Save Changes
+Now we will have to set mushop-media to public. Press on the name to see more options.
+Click Edit Visibility, in the pop-up window change the setting to public and **Save Changes**.
 
 ![](images/lab01/OBS5.png)
 
-Lastly we will upload files for mushop to the buckets we created
+Lastly we will upload files for mushop to the buckets we created.
 
 ![](images/lab01/OBS7.png)
 
