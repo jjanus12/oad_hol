@@ -59,7 +59,7 @@ Click on the **Menu** icon on the top left side. Scroll all the way down to Gove
 
 ![](images/lab01/img22002.png)
 
-This will bring up the Compartments administration page. Any Compartments created will be listed here along with information related to each Compartment such as: status, OCID, Authorized, the number of subcompartments and creation date. 
+This will bring up the Compartments administration page. Any Compartments created will be listed here along with information related to each Compartment.
 
 ![](images/lab01/img22003.png)
 
@@ -71,8 +71,8 @@ Click on **Create Compartment**
 
 ![](images/lab01/img22005.png)
 
-**Name**: Give your Compartment a name, for example: oad-hol
-**Description**: Provide a short description about your compartment, for example: **Oracle Academy Day - Hands on Lab** 
+-**Name**: Give your Compartment a name, for example: oad-hol
+-**Description**: Provide a short description about your compartment, for example: **Oracle Academy Day - Hands on Lab** 
 
 As mentioned earlier we will not use subcompartments so keep the Parent Compartment as: **root**
 
