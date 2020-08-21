@@ -25,6 +25,8 @@ Contents
 
 ## **STEP 1:** Architecture
 
+You will deploy the architecture below in the following exercises:
+
 ![](images/lab01/img1001.png)
 
 
@@ -230,7 +232,9 @@ Please review [Overview of Networking](https://docs.cloud.oracle.com/en-us/iaas/
 
 To create VCN on Oracle Cloud Infrastructure:
 
-On 
+On
+
+## **STEP 5.2:** Create Your Subnet
 
 
 ## **STEP 6:** Compute Overview
