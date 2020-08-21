@@ -313,7 +313,6 @@ To list the contents of the public key, use the following command:
 
 ![](images/lab01/img61005.png)
 
-
 Mark the key and copy it (e.g. use the Notepad). You will be pasting the key into the compute instance in the following steps, make sure that you remove any hard return that may have been added when copying. **The .pub key should be one line.**
 
 ![](images/lab01/img61006.png)
