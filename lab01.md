@@ -236,6 +236,7 @@ To create VCN on Oracle Cloud Infrastructure navigate to the **Virtual Cloud Net
 
 ![](images/lab01/img51001.png)
 
+
 ![](images/lab01/img51002.png)
 
 
