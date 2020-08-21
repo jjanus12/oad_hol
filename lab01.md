@@ -234,9 +234,6 @@ To create VCN on Oracle Cloud Infrastructure:
 
 On
 
-## **STEP 5.2:** Create Your Subnet
-
-
 ## **STEP 6:** Compute Overview
 
 ## **STEP 6.1:** Generate SSH Keys
