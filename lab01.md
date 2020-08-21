@@ -247,6 +247,27 @@ We recommend you use the Oracle **Cloud Shell** to interface with the OCI comput
 
 **IMPORTANT: If the SSH key is not created correctly, you will not be able to connect to your environment and will get errors. Please ensure you create your key properly.**
 
+The Cloud Shell machine is a small virtual machine running a Bash shell which you access through the OCI Console (Homepage). Cloud Shell comes with a pre-authenticated OCI CLI (Command Line Interface), set to the Console tenancy home page region, as well as up-to-date tools and utilities. To use the Cloud Shell machine, your tenancy administrator must grant the required IAM (Identity and Access Management) policy.
+
+To start the Oracle Cloud Shel, go to your Cloud console and click the **cloud shell icon** at the top right of the page.
+
+
+Once the cloud shell has started, enter the following command:
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">mkdir .ssh</span>
+</code>
+</pre>
+
+
+Choose the key name you can remember. This will be the keyname you will use to connect to any compute instances you create.
+
+
+Press Enter twice for no passphrase.
+
+
 ## **STEP 6.2:** Creating a Web Server on a Compute Instance
 
 ## **STEP 6.3:** Connect to the Compute Instance and Deploy the Application
