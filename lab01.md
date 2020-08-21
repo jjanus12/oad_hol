@@ -311,7 +311,7 @@ To list the contents of the public key, use the following command:
 </code>
 </pre>
 
-Mark the key and copy it. You will be pasting the key into the compute instance in the following steps, make sure that you remove any hard return that may have been added when copying. **The .pub key should be one line.**
+Mark the key and copy it (e.g. use the Notepad). You will be pasting the key into the compute instance in the following steps, make sure that you remove any hard return that may have been added when copying. **The .pub key should be one line.**
 
 
 **Congratulations you have successfully generated your ssh keys!**
