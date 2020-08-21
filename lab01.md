@@ -288,8 +288,33 @@ Enter the following command to generate your ssh key:
 
 Press **Enter** twice for no passphrase.
 
+![](images/lab01/img61004.png)
 
-**Congratulations you have successfully generated your ssh key!**
+Examine the two files that you just created.
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">ls</span>
+</code>
+</pre>
+
+**Note**: You will see two files in the output, a private key: **sshkeyname** and a public key: **sshkeyname**.pub. Keep the private key safe and don't share its content with anyone. The public key will be needed for various activities and can be uploaded to certain systems as well as copied and pasted to facilitate secure communications in the cloud.
+
+To list the contents of the public key, use the following command:
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">cat **sshkeyname**.pub</span>
+</code>
+</pre>
+
+Mark the key and copy it. You will be pasting the key into the compute instance in the following steps, make sure that you remove any hard return that may have been added when copying. **The .pub key should be one line.**
+
+
+**Congratulations you have successfully generated your ssh keys!**
+
 
 ## **STEP 6.2:** Creating a Web Server on a Compute Instance
 
