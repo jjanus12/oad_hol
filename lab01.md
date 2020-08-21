@@ -342,7 +342,7 @@ Most of the defaults are perfect for our purposes. However, you will need to scr
 
 **Note**: You need a public IP address so that you can SSH into the running instance later in this lab.
 
-Scroll down to the SSH area of the page. Choose Paste SSH Key that you created earlier in Generate SSH Keys step. Press the **Create** button to create your instance.
+Scroll down to the SSH area of the page. Choose **Paste SSH Key** that you created earlier in Generate SSH Keys step. Press the **Create** button to create your instance.
 
 Launching an instance is simple and intuitive with few options to select. The provisioning of the compute instance will complete in less than a minute and the instance state will change from provisioning to running.
 
