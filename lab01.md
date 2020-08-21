@@ -317,7 +317,6 @@ Mark the key and copy it (e.g. use the Notepad). You will be pasting the key int
 
 ![](images/lab01/img61006.png)
 
-
 **Congratulations you have successfully generated your ssh keys!**
 
 
