@@ -205,23 +205,23 @@ Oracle Cloud Infrastructure lets you create multiple Virtual Cloud Networks (VCN
 
 You will be using these networking components in the following exercises:
 
-**Virtual Cloud Network (VCN)**: A virtual, private network that you set up in Oracle data centers. It closely resembles a traditional network, with firewall rules and specific types of communication gateways that you can choose to use.
+- **Virtual Cloud Network (VCN)**: A virtual, private network that you set up in Oracle data centers. It closely resembles a traditional network, with firewall rules and specific types of communication gateways that you can choose to use.
 
-**Public IP**: A public IPv4 address and related information.
+- **Public IP**: A public IPv4 address and related information.
 
-**Private IP**: A private IPv4 address and related information for addressing an instance (for example, a hostname for DNS).
+- **Private IP**: A private IPv4 address and related information for addressing an instance (for example, a hostname for DNS).
 
-**VNIC**: A virtual network interface card (VNIC), which attaches to an instance and resides in a subnet to enable a connection to the subnet's VCN. The VNIC determines how the instance connects with endpoints inside and outside the VCN. Each instance has a primary VNIC that's created during instance launch and cannot be removed.
+- **VNIC**: A virtual network interface card (VNIC), which attaches to an instance and resides in a subnet to enable a connection to the subnet's VCN. The VNIC determines how the instance connects with endpoints inside and outside the VCN. Each instance has a primary VNIC that's created during instance launch and cannot be removed.
 
-**Subnet**: Subdivisions you define in a VCN (for example, 10.0.0.0/24 and 10.0.1.0/24). Subnets contain virtual network interface cards (VNICs), which attach to instances. Each subnet consists of a contiguous range of IP addresses that do not overlap with other subnets in the VCN.
+- **Subnet**: Subdivisions you define in a VCN (for example, 10.0.0.0/24 and 10.0.1.0/24). Subnets contain virtual network interface cards (VNICs), which attach to instances. Each subnet consists of a contiguous range of IP addresses that do not overlap with other subnets in the VCN.
 
-**Security List**: Virtual firewall rules for your VCN. They are ingress and egress rules that specify the types of traffic (protocol and port) allowed in and out of the instances.
+- **Security List**: Virtual firewall rules for your VCN. They are ingress and egress rules that specify the types of traffic (protocol and port) allowed in and out of the instances.
 
-**Internet Gateway**: For resources with public IP addresses that need to be reached from the internet (example: a web server) or need to initiate connections to the internet.
+- **Internet Gateway**: For resources with public IP addresses that need to be reached from the internet (example: a web server) or need to initiate connections to the internet.
 
-**Route Table**: Virtual route tables for your VCN. They have rules to route traffic from subnets to destinations outside the VCN by way of gateways or specially configured instances.
+- **Route Table**: Virtual route tables for your VCN. They have rules to route traffic from subnets to destinations outside the VCN by way of gateways or specially configured instances.
 
-**Availability Domain**: Your VCN resides in a single Oracle Cloud Infrastructure region. A region can have multiple availability domains (individual datacenters) to provide isolation and redundancy.
+- **Availability Domain**: Your VCN resides in a single Oracle Cloud Infrastructure region. A region can have multiple availability domains (individual datacenters) to provide isolation and redundancy.
 
 Please review [Overview of Networking](https://docs.cloud.oracle.com/en-us/iaas/Content/Network/Concepts/overview.htm) to gain full understanding of the network components and their relationships, or take a look at this video:
 
