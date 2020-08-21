@@ -290,7 +290,7 @@ Press **Enter** twice for no passphrase.
 
 ![](images/lab01/img61004.png)
 
-Examine the two files that you just created.
+Examine the two files that you just created with the following command:
 
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
