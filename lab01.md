@@ -71,8 +71,8 @@ Click on **Create Compartment**
 
 ![](images/lab01/img22005.png)
 
--**Name**: Give your Compartment a name, for example: oad-hol
--**Description**: Provide a short description about your compartment, for example: **Oracle Academy Day - Hands on Lab** 
+-Name: Give your Compartment a name, for example: **oad-hol**
+-Description: Provide a short description about your compartment, for example: **Oracle Academy Day - Hands on Lab** 
 
 As mentioned earlier we will not use subcompartments so keep the Parent Compartment as: **root**
 
