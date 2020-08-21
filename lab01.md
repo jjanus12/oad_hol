@@ -239,6 +239,17 @@ On
 
 ## **STEP 6:** Compute Overview
 
+## **STEP 6.1:** Generate SSH Keys
+
+## **STEP 6.2:** Creating a Web Server on a Compute Instance
+
+## **STEP 6.3:** Connect to the Compute Instance and Deploy the Application
+
+## **STEP 6.4:** Create a Custom Image from your Deployment
+
+## **STEP 6.5:** Create a second Web Server from the Custom Image
+
+
 
 
 ## **STEP 7:** Load Balancer Overview
