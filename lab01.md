@@ -263,6 +263,10 @@ To create VCN on Oracle Cloud Infrastructure navigate to the **Virtual Cloud Net
 
 Oracle Cloud Infrastructure Compute lets you provision and manage compute hosts, known as instances. You can launch instances as needed to meet your compute and application requirements. After you launch an instance, you can access it securely from your computer, restart it, attach and detach volumes, and terminate it when you're done with it. Any changes made to the instance's local drives are lost when you terminate it. Any saved changes to volumes attached to the instance are retained.
 
+### Compute Components
+
+**User data**: is a mechanism to inject a script or custom metadata when a compute instance is initializing on Oracle Cloud Infrastructure. This data is passed to the instance at provisioning time to customize the instance as needed. Instance user data can be implemented using variety of scripting languages.
+
 
 Please review [Best Practices for Your Compute Instance](https://docs.cloud.oracle.com/iaas/Content/Compute/References/bestpracticescompute.htm) for important information about working with your Oracle Cloud Infrastructure Compute instance.
 
@@ -359,13 +363,55 @@ An Oracle Cloud Infrastructure VM compute instance runs on the same hardware as 
 
 Navigate to the **Compute** tab and click **Create Instance**. We will launch a VM instance for this lab.
 
+![](images/lab01/img62001.png)
+
+![](images/lab01/img62002.png)
+
 The Create Compute Instance wizard will launch. Set the name of the server to **mushop-Web-Server-1**. Click on the **Show Shape, Networking, Storage Options** link to expand that area of the page.
 
-Most of the defaults are perfect for our purposes. However, you will need to scroll down to the Configure Networking area of the page and select the **Assign a public IP address** option.
+![](images/lab01/img62003.png)
+
+![](images/lab01/img62004.png)
+
+Most of the defaults are perfect for our purposes. Make sure you select the option to assign a Public IP address.
 
 **Note**: You need a public IP address so that you can SSH into the running instance later in this lab.
 
-Scroll down to the SSH area of the page. Choose **Paste SSH Key** that you created earlier in Generate SSH Keys step. Press the **Create** button to create your instance.
+Scroll down to the SSH area of the page. Choose **Paste SSH Key** that you created earlier in Generate SSH Keys step.
+
+Enter the following **Cloud-Init** custom user data startup script:
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">
+#!/bin/bash
+echo "-----------------configure firewall-----------------------"
+
+sudo firewall-offline-cmd --add-port=80/tcp
+sudo systemctl restart firewalld
+
+echo "-----------------Install the yum repo-----------------------"
+
+curl -sL https://rpm.nodesource.com/setup_10.x | sudo -E bash -
+
+echo "-----------------Install build tools & nodeJS-----------------------"
+
+sudo yum install -y gcc-c++ make nodejs wget unzip httpd jq
+sudo yum -y install oracle-release-el7
+sudo yum-config-manager --enable ol7_oracle_instantclient
+sudo yum -y install oracle-instantclient19.3-basic oracle-instantclient19.3-jdbc oracle-instantclient19.3-sqlplus
+
+echo "-----------------Install the cli-----------------------"
+sudo yum install -y python36-oci-cli
+</span>
+</code>
+</pre>
+
+![](images/lab01/img62005.png)
+
+
+Press the **Create** button to create your instance.
 
 Launching an instance is simple and intuitive with few options to select. The provisioning of the compute instance will complete in less than a minute and the instance state will change from provisioning to running.
 
