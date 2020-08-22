@@ -427,9 +427,13 @@ sudo yum install -y python36-oci-cli
 
 Press the **Create** button to create your instance.
 
-Launching an instance is simple and intuitive with few options to select. The provisioning of the compute instance will complete in less than a minute and the instance state will change from provisioning to running.
+Launching an instance is simple and intuitive with few options to select. The **provisioning** of the compute instance will complete in less than a minute and the instance state will change from provisioning to running.
+
+![](images/lab01/img62008.png)
 
 Once the instance state changes to **Running**, you can SSH to the Public IP address of the instance.
+
+![](images/lab01/img62009.png)
 
 ## **STEP 6.3:** Connect to the Compute Instance and Deploy the Application
 
