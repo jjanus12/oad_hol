@@ -256,6 +256,9 @@ To create VCN on Oracle Cloud Infrastructure navigate to the **Virtual Cloud Net
 
 **Note**: In real-world situations, you would create multiple VCNs based on their need for access (which ports to open) and who can access them.
 
+
+**Congratulations, you have successfully created and configured your first VCN!**
+
 ## **STEP 6:** Compute Overview
 
 Oracle Cloud Infrastructure Compute lets you provision and manage compute hosts, known as instances. You can launch instances as needed to meet your compute and application requirements. After you launch an instance, you can access it securely from your computer, restart it, attach and detach volumes, and terminate it when you're done with it. Any changes made to the instance's local drives are lost when you terminate it. Any saved changes to volumes attached to the instance are retained.
@@ -342,7 +345,7 @@ Mark the key and copy it (e.g. use the Notepad). You will be pasting the key int
 
 ![](images/lab01/img61006.png)
 
-**Congratulations you have successfully generated your ssh keys!**
+**Congratulations, you have successfully generated your ssh keys!**
 
 
 ## **STEP 6.2:** Creating a Web Server on a Compute Instance
