@@ -461,7 +461,7 @@ If you have a different path for your SSH key enter the following:
 
 ![](images/lab01/img63001.png)
 
-Make sure you logged in as user **op**c and that you see the **name of your instance** you logged on.
+Make sure you logged in as user **opc** and that you see the **name of your instance** you logged on.
 
 ![](images/lab01/img63002.png)
 
