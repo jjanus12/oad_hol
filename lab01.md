@@ -373,11 +373,17 @@ The Create Compute Instance wizard will launch. Set the name of the server to **
 
 ![](images/lab01/img62004.png)
 
+![](images/lab01/img62005.png)
+
 Most of the defaults are perfect for our purposes. Make sure you select the option to assign a Public IP address.
 
 **Note**: You need a public IP address so that you can SSH into the running instance later in this lab.
 
 Scroll down to the SSH area of the page. Choose **Paste SSH Key** that you created earlier in Generate SSH Keys step.
+
+![](images/lab01/img62006.png)
+
+Click on **Show Advanced Options**.
 
 Enter the following **Cloud-Init** custom user data startup script:
 
@@ -408,8 +414,7 @@ sudo yum install -y python36-oci-cli
 </code>
 </pre>
 
-![](images/lab01/img62005.png)
-
+![](images/lab01/img62007.png)
 
 Press the **Create** button to create your instance.
 
