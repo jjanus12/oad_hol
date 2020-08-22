@@ -273,12 +273,11 @@ To create VCN on Oracle Cloud Infrastructure navigate to the **Virtual Cloud Net
 
 Oracle Cloud Infrastructure Compute lets you provision and manage compute hosts, known as instances. You can launch instances as needed to meet your compute and application requirements. After you launch an instance, you can access it securely from your computer, restart it, attach and detach volumes, and terminate it when you're done with it. Any changes made to the instance's local drives are lost when you terminate it. Any saved changes to volumes attached to the instance are retained.
 
+Please review [Best Practices for Your Compute Instance](https://docs.cloud.oracle.com/iaas/Content/Compute/References/bestpracticescompute.htm) for important information about working with your Oracle Cloud Infrastructure Compute instance.
+
 ### Compute Components
 
 **User data**: is a mechanism to inject a script or custom metadata when a compute instance is initializing on Oracle Cloud Infrastructure. This data is passed to the instance at provisioning time to customize the instance as needed. Instance user data can be implemented using variety of scripting languages.
-
-
-Please review [Best Practices for Your Compute Instance](https://docs.cloud.oracle.com/iaas/Content/Compute/References/bestpracticescompute.htm) for important information about working with your Oracle Cloud Infrastructure Compute instance.
 
 
 ## **STEP 6.1:** Generate SSH Keys
