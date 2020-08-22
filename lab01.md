@@ -435,7 +435,7 @@ Once the instance state changes to **Running**, you can SSH to the Public IP add
 
 ![](images/lab01/img62009.png)
 
-**Congratulations, you have successfully provisioned and initially configured your Web Server!**
+**Congratulations, you have successfully provisioned and initially configured your first Web Server!**
 
 ## **STEP 6.3:** Connect to the Compute Instance and Deploy the Application
 
