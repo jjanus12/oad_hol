@@ -321,11 +321,11 @@ Enter the following command to generate your ssh key:
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
 <code>
-<span class="copy-code">ssh-keygen -b 2048 -t rsa -f "sshkeyname"</span>
+<span class="copy-code">ssh-keygen -b 2048 -t rsa -f &lt;sshkeyname&gt;</span>
 </code>
 </pre>
 
-**Note**: Replace the **sshkeyname** with the **keyname** you can remember. This will be the **keyname** you will use to connect to any compute instances you create.
+**Note**: Replace the **<sshkeyname>** with the **keyname** you can remember. This will be the **keyname** you will use to connect to any compute instances you create.
 
 Press **Enter** twice for no passphrase.
 
@@ -439,12 +439,12 @@ Once the instance state changes to **Running**, you can SSH to the Public IP add
 
 ## **STEP 6.3:** Connect to the Compute Instance and Deploy the Application
 
-To connect to the instance switch back to **Cloud Shell** and enter the following command:
+To connect to the instance copy your Public IP Address and switch back to **Cloud Shell**, where you enter the following command:
 
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
 <code>
-<span class="copy-code">ssh opc@<public_ip_address></span>
+<span class="copy-code">ssh opc@&lt;public_ip_address&gt;</span>
 </code>
 </pre>
 
@@ -453,7 +453,7 @@ If you have a different path for your SSH key enter the following:
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
 <code>
-<span class="copy-code">ssh -i /<path_to_private_ssh_key/> opc@/<public_ip_address/></span>
+<span class="copy-code">ssh -i &lt;path_to_private_ssh_key&gt; opc@&lt;public_ip_address&gt;</span>
 </code>
 </pre>
 
