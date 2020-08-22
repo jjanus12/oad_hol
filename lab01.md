@@ -348,7 +348,7 @@ To list the contents of the public key, use the following command:
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
 <code>
-<span class="copy-code">cat sshkeyname.pub</span>
+<span class="copy-code">cat <sshkeyname>.pub</span>
 </code>
 </pre>
 
