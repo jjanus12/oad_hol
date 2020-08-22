@@ -439,7 +439,7 @@ Once the instance state changes to **Running**, you can SSH to the Public IP add
 
 ## **STEP 6.3:** Connect to the Compute Instance and Deploy the Application
 
-To connect to the instance copy your Public IP Address and switch back to **Cloud Shell**, where you enter the following command:
+To connect to the instance,  copy your instance Public IP Address, then switch back to **Cloud Shell**, where you enter the following command:
 
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
