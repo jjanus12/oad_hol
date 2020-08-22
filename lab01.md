@@ -453,7 +453,7 @@ If you have a different path for your SSH key enter the following:
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
 <code>
-<span class="copy-code">ssh -i <path_to_private_ssh_key> opc@<public_ip_address></span>
+<span class="copy-code">ssh -i /<path_to_private_ssh_key/> opc@/<public_ip_address/></span>
 </code>
 </pre>
 
