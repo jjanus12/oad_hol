@@ -459,6 +459,13 @@ If you have a different path for your SSH key enter the following:
 
 **Note**: For Oracle Linux VM, the default username is **opc**. Replace the **<public_ip_address>** with the Public IP address of your instance (you will find it on your instance details under Instance Access).
 
+![](images/lab01/img63001.png)
+
+Make sure you logged in as user **op**c and that you see the **name of your instance** you logged on.
+
+![](images/lab01/img63002.png)
+
+
 ## **STEP 6.4:** Create a Custom Image from your Deployment
 
 ## **STEP 6.5:** Create a second Web Server from the Custom Image
