@@ -146,7 +146,7 @@ Finally save the downloaded wallet file in he **Scripts** folder of the download
 
 ![](images/lab01/ATP10.png)
 
-Congratulations you have successfully created an Autonomous Database and downloaded the connection wallet!
+**Congratulations, you have successfully created an Autonomous Database and downloaded the connection wallet!**
 
 ## **STEP 4:** Storage Overview
 
@@ -434,6 +434,8 @@ Launching an instance is simple and intuitive with few options to select. The **
 Once the instance state changes to **Running**, you can SSH to the Public IP address of the instance.
 
 ![](images/lab01/img62009.png)
+
+**Congratulations, you have successfully provisioned and initially configured your Web Server!**
 
 ## **STEP 6.3:** Connect to the Compute Instance and Deploy the Application
 
