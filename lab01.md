@@ -439,7 +439,7 @@ Once the instance state changes to **Running**, you can SSH to the Public IP add
 
 ## **STEP 6.3:** Connect to the Compute Instance and Deploy the Application
 
-To connect to the instance,  copy your instance Public IP Address (you will find it on your instance details under Instance Access), then switch back to **Cloud Shell**, where you enter the following command:
+To connect to the instance switch back to **Cloud Shell**, where you enter the following command:
 
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
@@ -457,7 +457,7 @@ If you have a different path for your SSH key enter the following:
 </code>
 </pre>
 
-**Note**: For Oracle Linux VM, the default username is **opc**.
+**Note**: For Oracle Linux VM, the default username is **opc**. Replace the **<public_ip_address>** with the Public IP address of your instance (you will find it on your instance details under Instance Access).
 
 ## **STEP 6.4:** Create a Custom Image from your Deployment
 
