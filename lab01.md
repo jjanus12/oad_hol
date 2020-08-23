@@ -325,7 +325,7 @@ Enter the following command to generate your ssh key:
 </code>
 </pre>
 
-**Note**: Replace the **<sshkeyname>** with the **keyname** you can remember. This will be the **keyname** you will use to connect to any compute instances you create.
+**Note**: Replace the **&lt;sshkeyname&gt;** with the **keyname** you can remember. This will be the **keyname** you will use to connect to any compute instances you create.
 
 Press **Enter** twice for no passphrase.
 
