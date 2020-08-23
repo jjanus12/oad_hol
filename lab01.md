@@ -546,6 +546,7 @@ Enter the following command to read the content of your oci_api_key_public.pem f
 
 ![](images/lab01/img63018.png)
 
+
 ## **STEP 6.4:** Create a Boot Volume Clone
 
 ![](images/lab01/img64001.png)
