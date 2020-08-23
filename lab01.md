@@ -562,7 +562,7 @@ The next step is to download the files you uploaded from the private object stor
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
 <code>
-<span class="copy-code">oci os object bulk-download --bucket-name mushop --download-dir</span>
+<span class="copy-code">oci os object bulk-download --bucket-name mushop --download-dir ./</span>
 </code>
 </pre>
 
