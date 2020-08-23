@@ -483,6 +483,8 @@ Make sure your user changed to the **root** user and continue with the following
 </code>
 </pre>
 
+Press Enter to keep the **default location** for your CLI config. Then it will ask you for **user OCID** for that click on the icon at the top right of the page and select **User Settings**:
+
 ![](images/lab01/img63003.png)
 
 ## **STEP 6.4:** Create a Custom Image from your Deployment
