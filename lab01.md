@@ -532,6 +532,15 @@ Press Enter to keep the **default location** for your CLI config. Then it will a
 
 ![](images/lab01/img65001.png)
 
+![](images/lab01/img65002.png)
+
+![](images/lab01/img65003.png)
+
+![](images/lab01/img65004.png)
+
+![](images/lab01/img65005.png)
+
+![](images/lab01/img65006.png)
 
 ## **STEP 7:** Load Balancer Overview
 
