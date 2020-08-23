@@ -497,6 +497,33 @@ Press Enter to keep the **default location** for your CLI config. Then it will a
 
 ![](images/lab01/img63007.png)
 
+Enter the following command to change the current directory to .oci:
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">cd ~/.oci</span>
+</code>
+</pre>
+
+Enter the following command to list items inside the directory:
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">ls</span>
+</code>
+</pre>
+
+Enter the following command to read the content of your oci_api_key_public.pem file:
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">cat oci_api_key_public.pem</span>
+</code>
+</pre>
+
 ![](images/lab01/img63008.png)
 
 ![](images/lab01/img63009.png)
