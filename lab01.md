@@ -388,7 +388,7 @@ Most of the defaults are perfect for our purposes. Make sure you select the opti
 
 **Note**: You need a public IP address so that you can SSH into the running instance later in this lab.
 
-Scroll down to the SSH area of the page. Choose **Paste SSH Key** that you created earlier in Generate SSH Keys step.
+Scroll down to the SSH area of the page. Choose **PASTE SSH KEYS** that you created earlier in Generate SSH Keys step.
 
 ![](images/lab01/img62006.png)
 
