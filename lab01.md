@@ -530,7 +530,7 @@ Press Enter to keep the **default location** for your CLI config. Then it will a
 
 ## **STEP 6.5:** Create a second Web Server from the Boot Volume Clone
 
-
+![](images/lab01/img65001.png)
 
 
 ## **STEP 7:** Load Balancer Overview
