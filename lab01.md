@@ -489,6 +489,21 @@ Press Enter to keep the **default location** for your CLI config. Then it will a
 
 ![](images/lab01/img63003.png)
 
+![](images/lab01/img63004.png)
+
+![](images/lab01/img63005.png)
+
+![](images/lab01/img63006.png)
+
+![](images/lab01/img63007.png)
+
+![](images/lab01/img63008.png)
+
+![](images/lab01/img63009.png)
+
+![](images/lab01/img63010.png)
+
+![](images/lab01/img63011.png)
 
 
 ## **STEP 6.4:** Create a Custom Image from your Deployment
