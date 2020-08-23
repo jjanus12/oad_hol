@@ -465,6 +465,8 @@ Make sure you logged in as user **opc** and that you see the **name of your inst
 
 ![](images/lab01/img63002.png)
 
+![](images/lab01/img63003.png)
+
 
 ## **STEP 6.4:** Create a Custom Image from your Deployment
 
