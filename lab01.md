@@ -474,10 +474,16 @@ Enter the following command to change your current user **opc** to superuser **r
 </code>
 </pre>
 
-Make sure your user changed to the root user.
+Make sure your user changed to the **root** user and continue with the following command to configure Command-Line-Interface (CLI):
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">oci setup config</span>
+</code>
+</pre>
 
 ![](images/lab01/img63003.png)
-
 
 ## **STEP 6.4:** Create a Custom Image from your Deployment
 
