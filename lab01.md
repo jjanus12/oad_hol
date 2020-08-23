@@ -582,7 +582,7 @@ As we have all of the files downloaded in the mushop-install directory we can co
 
 **Note**: Please replace **&lt;database_name&gt;** with the Autonomous Database name you defined when you created it.
 
-Now, we will connect to the Autonomous Database using SQL*Plus utility and run atp_mushop_catalogue.sql to create database objects we need for our application using the following command:
+Now, we will connect to the Autonomous Database using SQL*Plus utility and run **atp_mushop_catalogue.sql** to create database objects we need for our application using the following command:
 
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
