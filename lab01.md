@@ -497,7 +497,7 @@ Press Enter to keep the **default location** for your CLI config. Then it will a
 
 ![](images/lab01/img63007.png)
 
-Enter the following command to change the current directory to .oci:
+Enter the following command to navigate to .oci directory:
 
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
@@ -529,6 +529,43 @@ Enter the following command to read the content of your oci_api_key_public.pem f
 ![](images/lab01/img63009.png)
 
 ![](images/lab01/img63010.png)
+
+Enter the following command to navigate to your home directory:
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">cd</span>
+</code>
+</pre>
+
+Then create a new directory and name it **mushop-install** using the following command:
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">mkdir mushop-install</span>
+</code>
+</pre>
+
+Now, when you created the directory navigate to it using the following command:
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">cd mushop-install</span>
+</code>
+</pre>
+
+The next step is to download the files you uploaded from the private object storage using the following command:
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">oci os object bulk-download --bucket-name mushop --download-dir</span>
+</code>
+</pre>
+
 
 ![](images/lab01/img63011.png)
 
