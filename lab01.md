@@ -566,7 +566,7 @@ The next step is to download the files you uploaded from the private object stor
 </code>
 </pre>
 
-**Note**: Please replace &lt;your_private_bucket_name&gt; with your bucket name. As we defined in previous steps it should be **mushop**.
+**Note**: Please replace **&lt;your_private_bucket_name&gt;** with your bucket name. As we defined in previous steps it should be **mushop**.
 
 
 ![](images/lab01/img63011.png)
