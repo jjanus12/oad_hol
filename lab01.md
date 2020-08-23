@@ -457,7 +457,7 @@ If you have a different path for your SSH key enter the following:
 </code>
 </pre>
 
-**Note**: For Oracle Linux VM, the default username is **opc**. Replace the **<public_ip_address>** with the Public IP address of your instance (you will find it on your instance details under Instance Access).
+**Note**: For Oracle Linux VM, the default username is **opc**. Replace the **&lt;public_ip_address&gt;** with the Public IP address of your instance (you will find it on your instance details under Instance Access).
 
 ![](images/lab01/img63001.png)
 
