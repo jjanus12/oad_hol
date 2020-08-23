@@ -571,7 +571,7 @@ The next step is to download the files you uploaded from the private object stor
 
 ![](images/lab01/img63011.png)
 
-As we have all of the files downloaded in the mu shop-install directory we can copy database wallet to the instant client directory using the following command:
+As we have all of the files downloaded in the mushop-install directory we can copy database wallet to the instant client directory using the following command:
 
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
