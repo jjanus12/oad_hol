@@ -519,9 +519,9 @@ Press Enter to keep the **default location** for your CLI config. Then it will a
 
 ![](images/lab01/img63018.png)
 
-## **STEP 6.4:** Create a Custom Image from your Deployment
+## **STEP 6.4:** Create a Boot Volume Clone
 
-## **STEP 6.5:** Create a second Web Server from the Custom Image
+## **STEP 6.5:** Create a second Web Server from the Boot Volume Clone
 
 
 
