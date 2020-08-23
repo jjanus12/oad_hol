@@ -465,6 +465,17 @@ Make sure you logged in as user **opc** and that you see the **name of your inst
 
 ![](images/lab01/img63002.png)
 
+Enter the following command to change your current user **opc** to superuser **root**:
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">sudo -s</span>
+</code>
+</pre>
+
+Make sure your user changed to the root user.
+
 ![](images/lab01/img63003.png)
 
 
