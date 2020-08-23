@@ -521,6 +521,10 @@ Press Enter to keep the **default location** for your CLI config. Then it will a
 
 ## **STEP 6.4:** Create a Boot Volume Clone
 
+![](images/lab01/img64001.png)
+
+![](images/lab01/img64002.png)
+
 ## **STEP 6.5:** Create a second Web Server from the Boot Volume Clone
 
 
