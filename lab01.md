@@ -571,6 +571,27 @@ The next step is to download the files you uploaded from the private object stor
 
 ![](images/lab01/img63011.png)
 
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">sudo unzip ./Wallet_&lt;database_name&gt;.zip -d /usr/lib/oracle/19.3/client64/lib/network/admin/</span>
+</code>
+</pre>
+
+**Note**: Please replace **&lt;database_name&gt;** with the Autonomous Database name you defined when you created it.
+
+Now, we will connect to the Autonomous Database using SQL*Plus utility and run atp_mushop_catalogue.sql to create database objects we need for our application using the following command:
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">sqlplus admin/&lt;admin_password&gt;@&lt;database_name&gt;_tp @./atp_mushop_catalogue.sql</span>
+</code>
+</pre>
+
+**Note**: Please replace **&lt;admin_password&gt;** with the password you used for Admin user while creating Autonomous Database.
+
 ![](images/lab01/img63012.png)
 
 ![](images/lab01/img63013.png)
