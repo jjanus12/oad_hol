@@ -34,7 +34,7 @@ Please continue to the next exercise as you will create the following architectu
 
 ## **STEP 1.1:** Deployment using Resource Manager
 
-Before we start with the step-by-step deployment, we will deploy the application using the Terraform and Resource Manager to give you an idea of what should be the result of the step-by-step procedure.
+Before we start with the step-by-step deployment, we will deploy the application using the Terraform and Resource Manager to give you a quick idea of what should be the result of the step-by-step procedure.
 
  - **Terraform**: is "infrastructure-as-code" software that allows you to define your infrastructure resources in files that you can persist, version, and share. These files describe the steps required to provision your infrastructure and maintain its desired state; it then executes these steps and builds out the described infrastructure.
  
