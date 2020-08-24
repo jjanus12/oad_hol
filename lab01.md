@@ -619,7 +619,7 @@ Then enter the following command to unpack mushop-basic.tar.gz content to the ro
 
 ![](images/lab01/img63015.png)
 
-As we will execute the entry point.sh in the following steps, we need to change the permissions using the following command:
+As we will execute the entrypoint.sh in the following steps, we need to change the permissions using the following command:
 
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
