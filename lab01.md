@@ -242,7 +242,18 @@ To create VCN on Oracle Cloud Infrastructure navigate to the **Virtual Cloud Net
 
 ![](images/lab01/img51002.png)
 
+Complete the following fields:
+
+- **NAME**: mushop-VCN
+- **COMPARTMENT**:Choose the **oad_hol** compartment you created in the **Identity and Access Management Lab**
+- **CIDR BLOCK**: 10.1.0.0/16
+- **DNS RESOLUTION**: CHECKED
+
+Your screen should look similar to the following:
+
 ![](images/lab01/img51003.png)
+
+Press the **Create VCN** button at the bottom of the screen.
 
 ![](images/lab01/img51004.png)
 
