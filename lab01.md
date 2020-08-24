@@ -361,7 +361,7 @@ Mark the key and copy it (e.g. use the Notepad). You will be pasting the key int
 **Congratulations, you have successfully generated your SSH Keys!**
 
 
-## **STEP 6.2:** Provisioning a Web Server on a Compute Instance
+## **STEP 6.2:** Creating a Web Server on a Compute Instance
 
 Oracle Cloud Infrastructure offers both Bare Metal and Virtual Machine instances:
 
@@ -706,7 +706,7 @@ Enter the following command to start the application:
 
 **Congratulations, you have successfully cloned boot volume!**
 
-## **STEP 6.5:** Provision a second Web Server from the Boot Volume Clone
+## **STEP 6.5:** Creating a second Web Server from the Boot Volume Clone
 
 ![](images/lab01/img65001.png)
 
