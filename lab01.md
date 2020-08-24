@@ -500,7 +500,7 @@ Scroll down to the SSH area of the page. Choose **PASTE SSH KEYS** that you crea
 
 Click on **Show Advanced Options**.
 
-You can select Fault Domain manually or it will be automatically selected. Then click on **PASTE CLOUD-UNIT SCRIPT** and enter the following **Cloud-Init** custom user data startup script:
+You can select Fault Domain manually or it will be automatically selected. Then click on **PASTE CLOUD-INIT SCRIPT** and enter the following **Cloud-Init** custom user data startup script:
 
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
