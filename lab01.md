@@ -640,11 +640,11 @@ The next step is to download the files you uploaded from the private object stor
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
 <code>
-<span class="copy-code">oci os object bulk-download --bucket-name &lt;your_private_bucket_name&gt; --download-dir ./</span>
+<span class="copy-code">oci os object bulk-download --bucket-name &lt;bucket_name&gt; --download-dir ./</span>
 </code>
 </pre>
 
-**Note**: Please replace **&lt;your_private_bucket_name&gt;** with your bucket name. As we defined in previous steps it should be **mushop**.
+**Note**: Please replace **&lt;bucket_name&gt;** with your bucket name, which contains the installation files. As we defined in previous steps it should be **mushop**.
 
 
 ![](images/lab01/img63011.png)
