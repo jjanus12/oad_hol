@@ -253,13 +253,35 @@ Your screen should look similar to the following:
 
 ![](images/lab01/img51003.png)
 
-Press the **Create VCN** button at the bottom of the screen.
+Press the **Create VCN** button at the bottom of the screen. Then navigate to Security Lists in the detail of your VCN and click on the button **Create Security List**.
 
 ![](images/lab01/img51004.png)
 
+Complete the following fields:
+
+- **NAME**: mushop-lb
+- **COMPARTMENT**:Choose the **oad_hol** compartment you created in the **Identity and Access Management Lab**
+
 ![](images/lab01/img51005.png)
 
+Then you need to open port 22. Click on **+ Additional Ingress Rule** and add the following values as shown below:
+
+- **SOURCE TYPE**: CIDR
+- **Source CIDR**: 0.0.0.0/0
+- **IP PROTOCOL**: TCP
+- **DESTINATION PORT RANGE**: 22
+- **DESCRIPTION**: TCP traffic for ports: 22 Remote Login Protocol
+
 ![](images/lab01/img51006.png)
+
+To allow traffic out of the VCN click on **+ Additional Egress Rule** and add the following values as shown below:
+
+- **DESTINATION TYPE**: CIDR
+- **DESTINATION CIDR**: 0.0.0.0/0
+- **IP PROTOCOL**: TCP
+- **DESCRIPTION**: TCP traffic for ports: All
+
+Press the **Create Security List** button at the bottom of the screen.
 
 ![](images/lab01/img51007.png)
 
