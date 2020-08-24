@@ -265,7 +265,7 @@ Complete the following fields:
 Then you need to open port 22. Click on **+ Additional Ingress Rule** and add the following values as shown below:
 
 - **SOURCE TYPE**: CIDR
-- **Source CIDR**: 0.0.0.0/0
+- **SOURCE CIDR**: 0.0.0.0/0
 - **IP PROTOCOL**: TCP
 - **DESTINATION PORT RANGE**: 22
 - **DESCRIPTION**: TCP traffic for ports: 22 Remote Login Protocol
@@ -310,17 +310,36 @@ To route, the network traffic to the Internet click on **+ Additional Route Rule
 - **TARGET TYPE**: Internet Gateway
 - **DESTINATION CIDR BLOCK**: 0.0.0.0/0
 - **COMPARTMENT**:Choose the **oad_hol** compartment you created in the **Identity and Access Management Lab**
+- **TARGET INTERNET GATEWAY**: Choose the **mushop-IGW** you created in the previous step.
+
+Your screen should look similar to the following:
 
 ![](images/lab01/img51010.png)
 
 ![](images/lab01/img51011.png)
 
+Press the **Create Route Table** button. Then navigate to **Subnets** in the detail of your VCN and click on the button **Create Subnet**:
+
 ![](images/lab01/img51012.png)
+
+Complete the following fields:
+
+- **NAME**: mushop-lb
+- **SUBNET TYPE**: REGIONAL
+- **CIDR BLOCK**: 10.1.21.0/24
+- **ROUTE TABLE**: Choose the route table **mushop-lb** you created in the previous step.
+- **SUBNET ACCESS**: PUBLIC SUBNET
+- **DNS RESOLUTION**: CHECKED
+- **DHCP OPTIONS**: Choose the default
+- **SECURITY LISTS**: Choose the security list **mushop-lb** you created in the previous steps.
 
 ![](images/lab01/img51013.png)
 
 ![](images/lab01/img51014.png)
 
+Press the **Create Subnet** button.
+
+You have now created your own Security List, Internet Gateway, Route Table, and Subnet.
 
 **Note**: In real-world situations, you would create multiple VCNs based on their need for access (which ports to open) and who can access them.
 
