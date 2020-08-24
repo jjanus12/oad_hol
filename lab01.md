@@ -52,7 +52,7 @@ Enter the Public IP Address of your load balancer (it will show-up as an output 
 ![](images/lab01/img11003.png)
 
 
-**Note**: It might take a few minutes when the application show-up.
+**Note**: It might take a few minutes before the application show-up.
 
 Before you continue to the next step, please **unzip** **mushop-basic-stack-latest.zip** file in the new directory on your computer. We will need to work with the files during the step-by-step procedure in the following exercises.
 
