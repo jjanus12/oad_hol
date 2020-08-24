@@ -749,7 +749,7 @@ Enter the following commands to set-up application variables:
 </code>
 </pre>
 
-**Note**: Please replace **&lt;namespace&gt;** with the namespace of your public bucket you copied earlier. Replace **&lt;bucket_name&gt;** with the name of your public bucket. We defined earlier as **mu shop-media**.
+**Note**: Please replace **&lt;namespace&gt;** with the namespace of your public bucket you copied earlier. Replace **&lt;bucket_name&gt;** with the name of your public bucket. We defined earlier as **mushop-media**.
 
 ![](images/lab01/img63018.png)
 
