@@ -11,7 +11,7 @@ This hands-on, instructor-led workshop supplements live presentations and demos 
 
 - No expertise or previous experience is required.
 
-- All screen shots are examples ONLY. OCI UI is being updated thus some screenshots in the instructions might be different than actual UI.
+- All screen shots are examples ONLY. Oracle Cloud Infrastructure User-Interface is being updated thus some screenshots in the instructions might be different than actual UI.
 
 ### Objective
 
