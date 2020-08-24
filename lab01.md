@@ -691,7 +691,7 @@ Enter the following command to start the application:
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
 <code>
-<span class="copy-code">export STATIC_MEDIA_URL=sudo ./entrypoint.sh >./mushop.log 2>&1 &</span>
+<span class="copy-code">sudo ./entrypoint.sh >./mushop.log 2>&1 &</span>
 </code>
 </pre>
 
