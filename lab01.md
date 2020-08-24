@@ -667,7 +667,7 @@ Enter the following commands to set-up application variables:
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
 <code>
-<span class="copy-code">export STATIC_MEDIA_URL=&lt;public_object_storage_with_images&gt;</span>
+<span class="copy-code">export STATIC_MEDIA_URL=&lt;public_object_storage_url&gt;</span>
 </code>
 </pre>
 
