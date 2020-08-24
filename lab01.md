@@ -28,7 +28,7 @@ Contents
 
 ## **STEP 1:** Architecture
 
-You will deploy the architecture below in the following exercises:
+Please continue to the next exercise as you will create the following architecture step-by-step:
 
 ![](images/lab01/img1001.png)
 
