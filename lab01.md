@@ -32,7 +32,7 @@ Please continue to the next exercise as you will create the following architectu
 
 ![](images/lab01/img1001.png)
 
-## **STEP 1.1:** Resource Manager Deployment
+## **STEP 1.1:** Deployment using Resource Manager
 
 Before we start with the step-by-step deployment, we will deploy the application using the Terraform and Resource Manager to give you an idea of what should be the result of the step-by-step procedure.
 
