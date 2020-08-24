@@ -629,13 +629,19 @@ Enter the following command to read the content of your oci_api_key_public.pem f
 </code>
 </pre>
 
+Then select and **Copy** the key.
+
 ![](images/lab01/img63008.png)
+
+Next, click again on the icon at the top right of the page and select **User Settings**. Navigate to API Keys there and click on the Add Public Key button.
 
 ![](images/lab01/img63009.png)
 
+Choose PASTE PUBLIC KEYS option, paste your Public Key and click on the **Add** button.
+
 ![](images/lab01/img63010.png)
 
-Enter the following command to navigate to your home directory:
+Switch back to the Cloud Shell and enter the following command to navigate to your home directory:
 
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
