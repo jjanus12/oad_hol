@@ -40,7 +40,7 @@ Before we start with the step-by-step deployment, we will deploy the application
  
  - **Resource Manager**: is an Oracle Cloud Infrastructure service that allows you to automate the process of provisioning your Oracle Cloud Infrastructure resources. Using Terraform, Resource Manager helps you install, configure, and manage resources through the "infrastructure-as-code" model.
 
-Please navigate to homepage of your Cloud Account and choose Getting Started with MuShop Basic. Then follow the instructions you will see there.
+Please navigate to homepage of your Cloud Account and choose **Getting Started with MuShop Basic**. Then follow the instructions you will see there.
 
 ![](images/lab01/img11001.png)
 
