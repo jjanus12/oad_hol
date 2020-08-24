@@ -840,15 +840,31 @@ Press the **Create Clone** button.
 
 ## **STEP 6.5:** Creating a second Web Server from the Boot Volume Clone
 
+To create a second Webserver from your Boot Volume you just cloned navigate to Boot Volumes, click on the menu of the **mushop-Web-Server-2 (Boot Volume)** clone and select **Create instance**.
+
 ![](images/lab01/img65001.png)
 
+Set the name of the server to **mushop-Web-Server-2**. Click on the **Show Shape, Networking, Storage Options** link to expand that area of the page.
+
+Make sure you select **the same Availability Domain** you selected for your first Web-Server.
+
+**Note**: In the previous step, you can only create a clone for a boot volume within the same region, availability domain, and tenant.
+
+Your screen should look similar to the following:
+
 ![](images/lab01/img65002.png)
+
+Then click on **Change Image**, choose **Boot Volumes** tab and select your cloned Boot Volume.
 
 ![](images/lab01/img65003.png)
 
 ![](images/lab01/img65004.png)
 
+Your screen should look similar to the following:
+
 ![](images/lab01/img65005.png)
+
+Press the **Create** button. You will get a prompt because we didn't enter the SSH Key (The same SSH Key you used for your first Webserver is already part of the cloned Boot Volume). Press **Yes, Create Instance Anyway** button.
 
 ![](images/lab01/img65006.png)
 
