@@ -617,7 +617,6 @@ Now, we will connect to the Autonomous Database using SQL*Plus utility and run *
 ![](images/lab01/img64003.png)
 
 
-
 ## **STEP 6.5:** Create a second Web Server from the Boot Volume Clone
 
 ![](images/lab01/img65001.png)
