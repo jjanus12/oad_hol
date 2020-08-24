@@ -251,6 +251,9 @@ You will be using these networking components in the following exercises:
 
 - **Availability Domain**: Your VCN resides in a single Oracle Cloud Infrastructure region. A region can have multiple availability domains (individual datacenters) to provide isolation and redundancy.
 
+
+- **Fault Domain**: A fault domain is a grouping of hardware and infrastructure within an availability domain. Each availability domain contains three fault domains. Fault domains provide anti-affinity: they let you distribute your instances so that the instances are not on the same physical hardware within a single availability domain.
+
 Please review [Overview of Networking](https://docs.cloud.oracle.com/en-us/iaas/Content/Network/Concepts/overview.htm) to gain full understanding of the network components and their relationships, or take a look at this video:
 
 <div class="video-container">
@@ -497,7 +500,7 @@ Scroll down to the SSH area of the page. Choose **PASTE SSH KEYS** that you crea
 
 Click on **Show Advanced Options**.
 
-Enter the following **Cloud-Init** custom user data startup script:
+You can select Fault Domain manually or it will be automatically selected. Then click on **PASTE CLOUD-UNIT SCRIPT** and enter the following **Cloud-Init** custom user data startup script:
 
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
