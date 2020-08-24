@@ -1,7 +1,7 @@
 ## Before You Begin
 
 - Ensure you have supported browser version installed on your machine before you start. See [Supported Browsers](https://docs.cloud.oracle.com/en-us/iaas/Content/GSG/Tasks/signingin.htm?browser#supported_browsers)
-- Ensure you have access to your Always Free, Free Trial, or your own Tenancy. If not you can register [here](https://myservices.us.oraclecloud.com/mycloud/signup).
+- Ensure you have access to your Always Free, Free Trial Cloud Account, or your own Tenancy. If not you can register [here](https://myservices.us.oraclecloud.com/mycloud/signup).
 
 # Always Free Resources - Application Development
 
