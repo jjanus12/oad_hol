@@ -597,7 +597,25 @@ Now, we will connect to the Autonomous Database using SQL*Plus utility and run *
 
 ![](images/lab01/img63013.png)
 
+Copy the httpd.conf file to configure web server for the application using the following command:
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">sudo cp httpd.conf /etc/httpd/conf/httpd.conf</span>
+</code>
+</pre>
+
 ![](images/lab01/img63014.png)
+
+Then enter the following command to unpack mushop-basic.tar.gz content to the root directory:
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">tar zxvf ./mushop-basic.tar.gz -C /</span>
+</code>
+</pre>
 
 ![](images/lab01/img63015.png)
 
