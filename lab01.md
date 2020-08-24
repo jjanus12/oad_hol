@@ -607,6 +607,8 @@ Now, we will connect to the Autonomous Database using SQL*Plus utility and run *
 
 ![](images/lab01/img63018.png)
 
+![](images/lab01/img63019.png)
+
 
 ## **STEP 6.4:** Create a Boot Volume Clone
 
