@@ -47,7 +47,7 @@ Please navigate to homepage of your Cloud Account and choose **Getting Started w
 ![](images/lab01/img11002.png)
 
 
-Enter the Public IP Address of your load balancer (it will show-up after you run the Apply command for your Terraform stack as an output) to the new tab in your browser.
+Enter the Public IP Address of your load balancer (it will show-up as an output after you run the Apply command for your Terraform stack) to the new tab in your browser url address bar.
 
 ![](images/lab01/img11003.png)
 
