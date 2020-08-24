@@ -358,10 +358,10 @@ Mark the key and copy it (e.g. use the Notepad). You will be pasting the key int
 
 ![](images/lab01/img61006.png)
 
-**Congratulations, you have successfully generated your ssh keys!**
+**Congratulations, you have successfully generated your SSH Keys!**
 
 
-## **STEP 6.2:** Creating a Web Server on a Compute Instance
+## **STEP 6.2:** Provisioning a Web Server on a Compute Instance
 
 Oracle Cloud Infrastructure offers both Bare Metal and Virtual Machine instances:
 
@@ -704,8 +704,9 @@ Enter the following command to start the application:
 
 ![](images/lab01/img64003.png)
 
+**Congratulations, you have successfully cloned boot volume!**
 
-## **STEP 6.5:** Create a second Web Server from the Boot Volume Clone
+## **STEP 6.5:** Provision a second Web Server from the Boot Volume Clone
 
 ![](images/lab01/img65001.png)
 
@@ -718,6 +719,8 @@ Enter the following command to start the application:
 ![](images/lab01/img65005.png)
 
 ![](images/lab01/img65006.png)
+
+**Congratulations, you have successfully provisioned your second Web Server!**
 
 ## **STEP 7:** Load Balancer Overview
 
