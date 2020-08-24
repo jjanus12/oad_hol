@@ -308,7 +308,7 @@ To route, the network traffic to the Internet click on **+ Additional Route Rule
 
 - **TARGET TYPE**: Internet Gateway
 - **DESTINATION CIDR BLOCK**: 0.0.0.0/0
-- **COMPARTMENT**:Choose the **oad_hol** compartment you created in the **Identity and Access Management Lab**
+- **COMPARTMENT**: Choose the **oad_hol** compartment you created in the **Identity and Access Management Lab**
 - **TARGET INTERNET GATEWAY**: Choose the **mushop-IGW** you created in the previous step.
 
 Your screen should look similar to the following:
@@ -776,11 +776,30 @@ Enter the following command to start the application:
 
 ## **STEP 6.4:** Create a Boot Volume Clone
 
+You can create a clone from a boot volume using the Oracle Cloud Infrastructure Block Volume service. Cloning enables you to make a copy of an existing boot volume without needing to go through the backup and restore process.
+
+A boot volume clone is a point-in-time direct disk-to-disk deep copy of the source boot volume, so all the data that is in the source boot volume when the clone is created is copied to the boot volume clone.
+
+To create boot volume clone navigate to **Compute** and then click on **Boot Volumes**.
+
 ![](images/lab01/img64001.png)
+
+Click on the menu of the boot volume you want to clone and choose **Create Clone**.
 
 ![](images/lab01/img64002.png)
 
+Complete the following fields:
+
+- **NAME**: mushop-Web-Server-2 (Boot Volume)
+- **CREATE IN COMPARTMENT**: Choose the **oad_hol** compartment you created in the **Identity and Access Management Lab**
+- **VOLUME SIZE AND PERFORMANCE**: DEFAULT
+- **ENCRYPTION**: ENCRYPT USING ORACLE-MANAGED KEYS
+
+Your screen should look similar to the following:
+
 ![](images/lab01/img64003.png)
+
+Press the **Create Clone** button.
 
 **Congratulations, you have successfully cloned boot volume!**
 
