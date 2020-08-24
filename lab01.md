@@ -32,6 +32,23 @@ Please continue to the next exercise as you will create the following architectu
 
 ![](images/lab01/img1001.png)
 
+## **STEP 1.1:** Resource Manager Deployment
+
+Before we start with the step-by-step deployment, we will deploy the application using the Terraform and Resource Manager to give you an idea of what should be the result of the step-by-step procedure.
+
+ - **Terraform**: is "infrastructure-as-code" software that allows you to define your infrastructure resources in files that you can persist, version, and share. These files describe the steps required to provision your infrastructure and maintain its desired state; it then executes these steps and builds out the described infrastructure.
+ 
+ - **Resource Manager**: is an Oracle Cloud Infrastructure service that allows you to automate the process of provisioning your Oracle Cloud Infrastructure resources. Using Terraform, Resource Manager helps you install, configure, and manage resources through the "infrastructure-as-code" model.
+
+Please navigate to homepage of your Cloud Account and choose Getting Started with MuShop Basic. Then follow the instructions you will see there.
+
+![](images/lab01/img11001.png)
+
+![](images/lab01/img11002.png)
+
+Before you continue to the next step, please **unzip** **mushop-basic-stack-latest.zip** file in the new directory on your computer. We will need to work with the files during the step-by-step procedure in the following exercises.
+
+**Congratulations, you have successfully deployed and destroyed your application using Resource Manager!**
 
 ## **STEP 2.1:** Identity & Access Management Overview
 
