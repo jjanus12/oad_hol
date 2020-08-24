@@ -670,7 +670,7 @@ Enter the following commands to set-up application variables:
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
 <code>
-<span class="copy-code">export STATIC_MEDIA_URL=&lt;public_object_storage_url&gt;</span>
+<span class="copy-code">export STATIC_MEDIA_URL=https://objectstorage.eu-frankfurt-1.oraclecloud.com/n/&lt;namespace&gt;/b/&lt;bucket_name&gt;/o/</span>
 </code>
 </pre>
 
