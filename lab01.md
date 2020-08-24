@@ -584,11 +584,21 @@ Press Enter to keep the **default location** for your CLI config. Then it will a
 
 ![](images/lab01/img63003.png)
 
+Click on **Copy** to copy your user OCID.
+
 ![](images/lab01/img63004.png)
+
+Switch back to the Cloud Shell and paste the OCID you just copied and press Enter. Then it will ask you for **tenancy OCID** for that click on the icon at the top right of the page and select **Tenancy**.
 
 ![](images/lab01/img63005.png)
 
+Click on **Copy** to copy your tenancy OCID.
+
 ![](images/lab01/img63006.png)
+
+Switch back to the Cloud Shell and paste the OCID you just copied and press Enter. Then enter your home region you are using and press Enter.
+
+To generate a new API Signing RSA key please type **y** and press Enter. Then for every prompt press Enter until the configuration of the CLI finishes.
 
 ![](images/lab01/img63007.png)
 
