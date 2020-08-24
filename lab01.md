@@ -844,6 +844,8 @@ Your screen should look similar to the following:
 
 Press the **Create Clone** button.
 
+**Note**: Wait a few minutes until it's created.
+
 **Congratulations, you have successfully cloned boot volume!**
 
 ## **STEP 6.5:** Creating a second Web Server from the Boot Volume Clone
