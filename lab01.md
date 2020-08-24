@@ -637,7 +637,7 @@ Next, click again on the icon at the top right of the page and select **User Set
 
 ![](images/lab01/img63009.png)
 
-Choose PASTE PUBLIC KEYS option, paste your Public Key and click on the **Add** button.
+Choose **PASTE PUBLIC KEYS** option, paste your Public Key and click on the **Add** button.
 
 ![](images/lab01/img63010.png)
 
