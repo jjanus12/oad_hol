@@ -46,6 +46,14 @@ Please navigate to homepage of your Cloud Account and choose **Getting Started w
 
 ![](images/lab01/img11002.png)
 
+
+Enter the Public IP Address of your load balancer (it will show-up after you run the Apply command for your Terraform stack as an output) to the new tab in your browser.
+
+![](images/lab01/img11003.png)
+
+
+**Note**: It might take a few minutes when the application show-up.
+
 Before you continue to the next step, please **unzip** **mushop-basic-stack-latest.zip** file in the new directory on your computer. We will need to work with the files during the step-by-step procedure in the following exercises.
 
 **Congratulations, you have successfully deployed and destroyed your application using Resource Manager! But what this automation did on the background? Let's find out using the Cloud Console and the following step-by-step exercises!**
