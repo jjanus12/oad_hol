@@ -694,6 +694,7 @@ Enter the following command to start the application:
 
 ![](images/lab01/img63019.png)
 
+**Congratulations, you have successfully connected to your instance and deployed your web-based application!**
 
 ## **STEP 6.4:** Create a Boot Volume Clone
 
