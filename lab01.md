@@ -619,11 +619,78 @@ Then enter the following command to unpack mushop-basic.tar.gz content to the ro
 
 ![](images/lab01/img63015.png)
 
+As we will execute the entry point.sh in the following steps, we need to change the permissions using the following command:
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">chmod +x ./entrypoint.sh</span>
+</code>
+</pre>
+
 ![](images/lab01/img63016.png)
+
+Next, install node services for our application using the following command:
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">cd /app/api && sudo npm ci --production</span>
+</code>
+</pre>
 
 ![](images/lab01/img63017.png)
 
+Enter the following commands to set-up application variables:
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">export OADB_USER=catalogue_user</span>
+</code>
+</pre>
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">export OADB_PW=default_Password1</span>
+</code>
+</pre>
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">export OADB_SERVICE=&lt;database_name&gt;_tp</span>
+</code>
+</pre>
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">export STATIC_MEDIA_URL=&lt;public_object_storage_with_images&gt;</span>
+</code>
+</pre>
+
 ![](images/lab01/img63018.png)
+
+Navigate back to mushop-install directory:
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">cd ~/mushop-install</span>
+</code>
+</pre>
+
+
+Enter the following commands to start the application:
+
+<pre>
+<button class="copy-button" title="Copy text to clipboard">Copy</button>
+<code>
+<span class="copy-code">export STATIC_MEDIA_URL=sudo ./entrypoint.sh >./mushop.log 2>&1 &</span>
+</code>
+</pre>
 
 ![](images/lab01/img63019.png)
 
