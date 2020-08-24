@@ -48,7 +48,7 @@ Please navigate to homepage of your Cloud Account and choose **Getting Started w
 
 Before you continue to the next step, please **unzip** **mushop-basic-stack-latest.zip** file in the new directory on your computer. We will need to work with the files during the step-by-step procedure in the following exercises.
 
-**Congratulations, you have successfully deployed and destroyed your application using Resource Manager! But what it did on the background? Let's find out using the Cloud Console and the following step-by-step exercises!**
+**Congratulations, you have successfully deployed and destroyed your application using Resource Manager! But what this automation did on the background? Let's find out using the Cloud Console and the following step-by-step exercises!**
 
 ## **STEP 2.1:** Identity & Access Management Overview
 
