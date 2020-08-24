@@ -237,7 +237,6 @@ Please review [Overview of Networking](https://docs.cloud.oracle.com/en-us/iaas/
 
 To create VCN on Oracle Cloud Infrastructure navigate to the **Virtual Cloud Networks** tab and click **Create VCN**. Make sure to select the same compartment where the rest of your cloud resources reside, and create your VCN.
 
-
 ![](images/lab01/img51001.png)
 
 ![](images/lab01/img51002.png)
@@ -245,7 +244,7 @@ To create VCN on Oracle Cloud Infrastructure navigate to the **Virtual Cloud Net
 Complete the following fields:
 
 - **NAME**: mushop-VCN
-- **CREATE IN COMPARTMENT**:Choose the **oad_hol** compartment you created in the **Identity and Access Management Lab**
+- **CREATE IN COMPARTMENT**: Choose the **oad_hol** compartment you created in the **Identity and Access Management Lab**
 - **CIDR BLOCK**: 10.1.0.0/16
 - **DNS RESOLUTION**: CHECKED
 
@@ -260,7 +259,7 @@ Press the **Create VCN** button at the bottom of the screen. Then navigate to **
 Complete the following fields:
 
 - **NAME**: mushop-lb
-- **CREATE IN COMPARTMENT**:Choose the **oad_hol** compartment you created in the **Identity and Access Management Lab**
+- **CREATE IN COMPARTMENT**: Choose the **oad_hol** compartment you created in the **Identity and Access Management Lab**
 
 Then you need to open port 22. Click on **+ Additional Ingress Rule** and add the following values as shown below:
 
@@ -292,7 +291,7 @@ Press the **Create Security List** button at the bottom of the screen. Then navi
 Complete the following fields:
 
 - **NAME**: mushop-IGW
-- **CREATE IN COMPARTMENT**:Choose the **oad_hol** compartment you created in the **Identity and Access Management Lab**
+- **CREATE IN COMPARTMENT**: Choose the **oad_hol** compartment you created in the **Identity and Access Management Lab**
 
 ![](images/lab01/img51008.png)
 
@@ -303,7 +302,7 @@ Press the **Create Internet Gateway** button at the bottom of the screen. Then n
 Complete the following fields:
 
 - **NAME**: mushop-lb
-- **CREATE IN COMPARTMENT**:Choose the **oad_hol** compartment you created in the **Identity and Access Management Lab**
+- **CREATE IN COMPARTMENT**: Choose the **oad_hol** compartment you created in the **Identity and Access Management Lab**
 
 To route, the network traffic to the Internet click on **+ Additional Route Rule** and add the following values as shown below:
 
@@ -332,6 +331,8 @@ Complete the following fields:
 - **DNS RESOLUTION**: CHECKED
 - **DHCP OPTIONS**: Choose the default
 - **SECURITY LISTS**: Choose the security list **mushop-lb** you created in the previous steps.
+
+Your screen should look similar to the following:
 
 ![](images/lab01/img51013.png)
 
