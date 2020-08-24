@@ -683,7 +683,7 @@ Navigate back to mushop-install directory:
 </pre>
 
 
-Enter the following commands to start the application:
+Enter the following command to start the application:
 
 <pre>
 <button class="copy-button" title="Copy text to clipboard">Copy</button>
