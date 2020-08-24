@@ -1,6 +1,7 @@
 ## Before You Begin
 
 - Ensure you have supported browser version installed on your machine before you start. See [Supported Browsers](https://docs.cloud.oracle.com/en-us/iaas/Content/GSG/Tasks/signingin.htm?browser#supported_browsers)
+- Ensure you have accesss to your Always Free, Free Trial or your own Tenancy. If not you can register [here](https://myservices.us.oraclecloud.com/mycloud/signup).
 
 # Always Free Resources - Application Development
 
@@ -8,7 +9,9 @@
 
 This hands-on, instructor-led workshop supplements live presentations and demos in order to cover both technical architecture and educational use cases, strategies when using Oracle Cloud Infrastructure's Always Free Resources.
 
-No expertise or previous experience is required.
+- No expertise or previous experience is required.
+
+- All screen shots are examples ONLY. OCI UI is being updated thus some screenshots in the instructions might be different than actual UI.
 
 ### Objective
 
