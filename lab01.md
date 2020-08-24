@@ -245,7 +245,7 @@ To create VCN on Oracle Cloud Infrastructure navigate to the **Virtual Cloud Net
 Complete the following fields:
 
 - **NAME**: mushop-VCN
-- **COMPARTMENT**:Choose the **oad_hol** compartment you created in the **Identity and Access Management Lab**
+- **CREATE IN COMPARTMENT**:Choose the **oad_hol** compartment you created in the **Identity and Access Management Lab**
 - **CIDR BLOCK**: 10.1.0.0/16
 - **DNS RESOLUTION**: CHECKED
 
@@ -253,14 +253,14 @@ Your screen should look similar to the following:
 
 ![](images/lab01/img51003.png)
 
-Press the **Create VCN** button at the bottom of the screen. Then navigate to Security Lists in the detail of your VCN and click on the button **Create Security List**.
+Press the **Create VCN** button at the bottom of the screen. Then navigate to **Security Lists** in the detail of your VCN and click on the button **Create Security List**.
 
 ![](images/lab01/img51004.png)
 
 Complete the following fields:
 
 - **NAME**: mushop-lb
-- **COMPARTMENT**:Choose the **oad_hol** compartment you created in the **Identity and Access Management Lab**
+- **CREATE IN COMPARTMENT**:Choose the **oad_hol** compartment you created in the **Identity and Access Management Lab**
 
 Then you need to open port 22. Click on **+ Additional Ingress Rule** and add the following values as shown below:
 
@@ -285,13 +285,31 @@ Your screen should look similar to the following:
 
 ![](images/lab01/img51006.png)
 
-Press the **Create Security List** button at the bottom of the screen.
+Press the **Create Security List** button at the bottom of the screen. Then navigate to **Internet Gateways** in the detail of your VCN and click on the button **Create Internet Gateway**.
 
 ![](images/lab01/img51007.png)
 
+Complete the following fields:
+
+- **NAME**: mushop-IGW
+- **CREATE IN COMPARTMENT**:Choose the **oad_hol** compartment you created in the **Identity and Access Management Lab**
+
 ![](images/lab01/img51008.png)
 
+Press the **Create Internet Gateway** button at the bottom of the screen. Then navigate to **Route Tables** in the detail of your VCN and click on the button **Create Route Table**.
+
 ![](images/lab01/img51009.png)
+
+Complete the following fields:
+
+- **NAME**: mushop-lb
+- **CREATE IN COMPARTMENT**:Choose the **oad_hol** compartment you created in the **Identity and Access Management Lab**
+
+To route, the network traffic to the Internet click on **+ Additional Route Rule** and add the following values as shown below:
+
+- **TARGET TYPE**: Internet Gateway
+- **DESTINATION CIDR BLOCK**: 0.0.0.0/0
+- **COMPARTMENT**:Choose the **oad_hol** compartment you created in the **Identity and Access Management Lab**
 
 ![](images/lab01/img51010.png)
 
